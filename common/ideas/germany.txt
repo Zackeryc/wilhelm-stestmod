@@ -199,6 +199,18 @@ ideas={
 						max_planning = 0.1
 					}
 				}
+				
+		GER_schlieffen_plan = { 
+			allowed = {original_tag = FRA} 
+			allowed_civil_war = {always = FRA} 
+			removal_cost = -1 
+			picture = GFX_idea_German_staff_ww1
+			targeted_modifier = {
+				tag = FRA 
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			}
 
 		idea_oppression_minorities = {
 

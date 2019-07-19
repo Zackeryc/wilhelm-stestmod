@@ -75,21 +75,71 @@ ideas={
 				}
 			}
 		}
-	}
+		
+		RUS_ww1_brusilov_offensive = {
+			allowed = {original_tag = RUS} 
+			allowed_civil_war = {always = yes} 
+			removal_cost = -1 
+			picture = generic_acquire_tanks
 
-
-	political_advisor={
-		RUS_boris_sturmer={
-			allowed={
-				tag=RUS
-			}
-			traits={
-				silent_workhorse
-			}
-			ai_will_do={
-				factor=1
-			}
+			targeted_modifier = {
+				tag = GER 
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = AUH
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = BUL
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = TUR
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = ROM
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+				}
 		}
+		
+		RUS_Grit = {
+			picture = officers_purged 
+			allowed = {
+					always = no
+				}
+            allowed_civil_war = {
+                NOT = {
+                    has_government = democratic
+                }
+            }
+             modifier = {
+				army_org_factor = 0.2
+				}
+            }
+        }
+	
+
+
+	
+	political_advisor={
+			RUS_boris_sturmer={
+				allowed={
+					tag=RUS
+					}
+				traits={
+					silent_workhorse
+					}
+				ai_will_do={
+					factor=1
+					}
+				}
 			RUS_vladimir_kokovtsov={ allowed={ tag=RUS } traits={ quartermaster_general } ai_will_do={ factor=1 } }
 			RUS_nikolai_golitsyn={ allowed={ tag=RUS } traits={ compassionate_gentleman } ai_will_do={ factor=1 } }
 			RUS_pavel_ryabushinsky={ allowed={ tag=RUS } traits={ armaments_organizer } ai_will_do={ factor=1 } }
@@ -156,3 +206,5 @@ ideas={
 			vyatka_factory_design_bureau={ allowed={ TAG=RUS } research_bonus={ armor=0.10 } traits={ tank_manufacturer } picture=generic_tank_manufacturer_2 }
 			}
 	}
+
+

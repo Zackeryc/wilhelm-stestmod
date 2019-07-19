@@ -192,13 +192,7 @@ create_navy_leader={
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-	complete_national_focus = FRA_ww1_army_effort
-	complete_national_focus = FRA_ww1_industrial_effort
-	complete_national_focus = FRA_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = FRA_ww1_diplomatic_effort
+	
 	#-------------------------------------------------------
 
 	set_technology = {
@@ -286,6 +280,7 @@ create_navy_leader={
 		FRA_disjointed_government
 		limited_conscription
 		#Franch_Staff
+		FRA_old_doctrine
 	}
 
 	create_equipment_variant={ name="Tempête Class" type=battleship_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=0 ship_armor_upgrade=2 ship_engine_upgrade=0 ship_reliability_upgrade=2           } }

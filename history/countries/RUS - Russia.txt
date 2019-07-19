@@ -228,6 +228,7 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 		limited_exports 
 		RUS_ww1_tsushima_humiliation
 		RUS_ww1_mixed_railways
+		RUS_Grit
 	}
 	
 	create_equipment_variant={ name="Admiral Chichagov Class" type=battleship_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=0 ship_armor_upgrade=0 ship_engine_upgrade=0 ship_reliability_upgrade=0           } }

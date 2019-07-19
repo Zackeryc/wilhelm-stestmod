@@ -684,7 +684,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ww1_aviation_effort_3
-		prerequisite = { focus=USA_ww1_bomber_focus focus=GER_ww1_fighter_focus focus=GER_ww1_airship_focus }
+		prerequisite = { focus=USA_ww1_bomber_focus focus=USA_ww1_fighter_focus focus=USA_ww1_airship_focus }
 		icon = GFX_goal_generic_air_doctrine
 		completion_reward = { air_experience=15 add_tech_bonus={ name=air_doc_bonus bonus=1.00 uses=1 category=air_doctrine } }
 		ai_will_do = { factor = 10 }
@@ -729,7 +729,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ww1_aviation_effort_4
-		prerequisite = { focus=USA_ww1_pilotformation_1 focus=GER_ww1_aircraftprod_1 focus=GER_ww1_airbomb_1 }
+		prerequisite = { focus=USA_ww1_pilotformation_1 focus=USA_ww1_aircraftprod_1 focus=USA_ww1_airbomb_1 }
 		icon = GFX_goal_generic_air_doctrine
 		completion_reward = { air_experience=15 add_tech_bonus={ name=air_doc_bonus bonus=1.00 uses=1 category=air_doctrine } }
 		ai_will_do = { factor = 10 }
@@ -1102,7 +1102,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ww1_submarine_effort
-		prerequisite = { focus=USA_ww1_flexible_navy focus=GER_ww1_large_navy }
+		prerequisite = { focus=USA_ww1_flexible_navy focus=USA_ww1_large_navy }
 		icon = GFX_goal_generic_navy_submarine
 		completion_reward = { add_tech_bonus={ name=ss_bonus bonus=1.00 uses=1 technology=ww1_submarine1 technology=ww1_submarine2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1113,7 +1113,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_ww1_cruiser_effort
-		prerequisite = { focus=USA_ww1_flexible_navy focus=GER_ww1_large_navy }
+		prerequisite = { focus=USA_ww1_flexible_navy focus=USA_ww1_large_navy }
 		icon = GFX_goal_generic_navy_cruiser
 		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=1.00 uses=1 technology=ww1_light_cruiser0 technology=ww1_light_cruiser1 technology=ww1_light_cruiser2 } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }

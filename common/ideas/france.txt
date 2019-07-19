@@ -621,5 +621,31 @@ ideas = {
                 communism_drift = -0.05
             }
         }
-    }
+		FRA_old_doctrine = {
+			picture = officers_purged 
+			allowed = {
+					always = no
+				}
+            allowed_civil_war = {
+                NOT = {
+                    has_government = democratic
+                }
+            }
+             modifier = {
+				army_org_factor = -0.5
+			}
+        }
+		FRA_you_shall_not_pass = { 
+			allowed = {original_tag = FRA} 
+			allowed_civil_war = {always = FRA} 
+			removal_cost = -1 
+			picture = generic_acquire_tanks
+			targeted_modifier = {
+				tag = GER 
+				defense_bonus_against = 0.20
+			}
+		}
+		
+
+}
 }
