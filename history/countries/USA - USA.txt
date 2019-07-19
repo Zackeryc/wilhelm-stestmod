@@ -230,6 +230,7 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 		disarmed_nation 
 		free_trade 
 		home_of_the_free
+		splended_isolation
 	}
 	create_equipment_variant={ name="Indiana Class" type=battleship_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=5 ship_armor_upgrade=5 ship_engine_upgrade=1 ship_reliability_upgrade=5           } }
 	create_equipment_variant={ name="Iowa Class" type=battleship_1890 parent_version = 1 obsolete=yes upgrades={ ship_gun_upgrade=5 ship_armor_upgrade=5 ship_engine_upgrade=2 ship_reliability_upgrade=5           } }

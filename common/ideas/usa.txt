@@ -88,7 +88,7 @@ ideas={
 			}
 
 	country={
-			great_depression={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ political_power_cost=1 consumer_goods_factor=0.3 conscription_factor=-0.5 } }
+			great_depression={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ political_power_cost=1 consumer_goods_factor=0.4 conscription_factor=-0.5 } }
 			new_deal={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ production_speed_infrastructure_factor=0.2 stability_factor =0.10 } }
 			wilkies_new_deal={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ production_speed_infrastructure_factor=0.1 stability_factor =0.05 drift_defence_factor=0.2 } }
 			full_employment={ allowed={ always=no } allowed_civil_war={ always=yes } removal_cost=-1 picture=generic_pp_unity_bonus modifier={ political_power_cost=1 } }
@@ -118,5 +118,43 @@ ideas={
 			american_protection_defence_fascism={ allowed={ always=no	} allowed_civil_war={ has_government=fascism } removal_cost=-1 picture=generic_intel_bonus modifier={ drift_defence_factor=0.5 } }
 			american_protection_drift_fascism={ allowed={ always=no	} allowed_civil_war={ has_government=fascism } removal_cost=-1 picture=generic_intel_bonus modifier={ fascism_drift=0.05 }			 }
 			USA_world_police={ allowed={ always=no	} allowed_civil_war={ always=yes } removal_cost=-1 picture=generic_volunteer_expedition_bonus modifier={			 justify_war_goal_time=-0.25 }			 }
+			splended_isolation={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor=0.4 conscription_factor=-0.5 } }
+			federal_reserve={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor=-.05 } }
+			neutral_USA={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor=-.05 } }
+			prepardness={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ production_speed_arms_factory_factor = 0.25} }
+			allied_counter_offensive = {
+				allowed = {
+					always = no
+				}
+
+				allowed_civil_war = {
+					has_government = democratic
+				}
+
+				removal_cost = -1
+
+				picture = generic_acquire_tanks
+
+				targeted_modifier = {
+					tag = GER 
+					attack_bonus_against = 0.20
+					defense_bonus_against = 0.20
+				}
+				targeted_modifier = {
+					tag = AUH
+					attack_bonus_against = 0.20
+					defense_bonus_against = 0.20
+				}
+				targeted_modifier = {
+					tag = BUL
+					attack_bonus_against = 0.20
+					defense_bonus_against = 0.20
+				}
+				targeted_modifier = {
+					tag = TUR
+					attack_bonus_against = 0.20
+					defense_bonus_against = 0.20
+				}
+				}
 			}
 	}
