@@ -619,7 +619,10 @@ focus_tree = {
 			date > 1914.7.28
 			}
 		completion_reward = {
-			add_ideas = GER_schlieffen_plan 
+					add_timed_idea = {
+							idea = GER_schlieffen_plan 
+							days = 128
+		}
 		}
 		x = 15
 		y = 6

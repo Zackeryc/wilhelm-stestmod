@@ -645,6 +645,11 @@ ideas = {
 				defense_bonus_against = 0.20
 			}
 		}
+		fortify_city = {
+			allowed = {original_tag = FRA} 
+			allowed_civil_war = { has_government=democratic } 
+			removal_cost = -1 
+			modifier = { production_speed_trench_factor = 2.00 } }
 		
 
 }

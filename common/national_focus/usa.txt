@@ -391,7 +391,12 @@ focus_tree = {
 		id = USA_ww1_counter_offensive
 		prerequisite = { focus = USA_ww1_war_propoganda }
 		available = { date > 1917.1.1 }
-		completion_reward = { add_ideas = allied_counter_offensive }
+		completion_reward = {
+					add_timed_idea = {
+							idea = allied_counter_offensive 
+							days = 64
+			}
+		}
 		ai_will_do = { factor = 10 }
 		cost = 10
 		x = 13

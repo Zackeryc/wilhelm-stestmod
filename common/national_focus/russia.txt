@@ -124,7 +124,12 @@ focus_tree = {
 	focus = {
 			id = RUS_ww1_brusilov_offensive
 			available = { date > 1916.1.1 }
-			completion_reward = { add_ideas = RUS_ww1_brusilov_offensive }
+			completion_reward = {
+					add_timed_idea = {
+							idea = RUS_ww1_brusilov_offensive 
+							days = 64
+			}
+			}
 			ai_will_do = { factor = 100 }
 			cost = 0
 			x = 15
