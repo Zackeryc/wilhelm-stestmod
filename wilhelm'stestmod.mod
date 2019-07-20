@@ -1,5 +1,5 @@
 name="Wilhelm's Test Mod"
-path="mod/wilhelm'stestmod/"
+path="mod/wilhelm-stestmod/"
 tags={
 	"Balance"
 	"Historical"
