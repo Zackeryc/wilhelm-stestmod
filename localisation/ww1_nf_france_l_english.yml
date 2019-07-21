@@ -375,6 +375,9 @@ FRA_ww1_send_diplomats_desc:0 "Everyone in Europe loves our diplomats, or so our
 
  FRA_ww1_alsaceloreaine_war:0 "Get Alsace-Lorraine back"
  FRA_ww1_alsaceloreaine_war_desc:0 "Alsace-Lorraine belongs to France! We must get it back, whatever the cost!"
+ 
+ FRA_ww1_you_shall_not_pass:0 "Miracle of the Marne"
+ FRA_ww1_you_shall_not_pass_desc:0 "The Great Retreat is over. With the failure of the Schlieffen Plan, the German General Staff has been left scrambling. Now is the time to halt the German advance, and to put an end to their hope for a quick victory."
 
  FRA_ww1_defense_border:0 "Defend the border"
  FRA_ww1_defense_border_desc:0 "Further expansion of prior defensive measures will make France a tough nut to crack, buying us time for our allies to pull their weight in the course of the war. If we can hold off from Germany while Russia hits them from the east, how would they ever resist?"
