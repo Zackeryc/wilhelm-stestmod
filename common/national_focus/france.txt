@@ -960,7 +960,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_ww1_aircraftprod_1
-		prerequisite = { focus=UFRA_ww1_aviation_effort_3 }
+		prerequisite = { focus=FRA_ww1_aviation_effort_3 }
 		icon = GFX_goal_generic_air_production
 		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1.00 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
@@ -1039,7 +1039,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_ww1_air_innovation
-		prerequisite = { focus=RA_ww1_aviation_effort_5 }
+		prerequisite = { focus=FRA_ww1_aviation_effort_5 }
 		icon = GFX_goal_generic_air_fighter2
 		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=1.00 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
 		ai_will_do = { factor = 10 }
