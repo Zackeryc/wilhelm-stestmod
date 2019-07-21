@@ -657,7 +657,7 @@ focus_tree = {
 	# Bloc 4
 	#-----------------------------------------------------------------------
 	focus = {
-		id = BUL_ww1_assert_position_eBUL
+		id = BUL_ww1_assert_position_east
 		prerequisite = { focus = BUL_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_production2
 
@@ -670,7 +670,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_ww1_develop_serbia
-		prerequisite = { focus=BUL_ww1_assert_position_eBUL }
+		prerequisite = { focus=BUL_ww1_assert_position_east }
 		icon = GFX_goal_generic_construct_infrastructure
 
 		available = {
