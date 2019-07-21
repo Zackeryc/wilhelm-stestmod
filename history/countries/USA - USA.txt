@@ -139,13 +139,6 @@ create_navy_leader={  name = "Richmond P. Hobson" id=93396 portrait_path="gfx/ho
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-	complete_national_focus = USA_ww1_army_effort
-	complete_national_focus = USA_ww1_industrial_effort
-	complete_national_focus = USA_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = USA_ww1_diplomatic_effort
 	#-------------------------------------------------------
 
 	set_technology = {
