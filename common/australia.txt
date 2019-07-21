@@ -1083,7 +1083,7 @@ focus_tree = {
 		cost = 10
 		x = 28
 		y = 4
-		mutually_exclusive = { focus=AST_ww1_large_navy }
+		mutually_exclusive = { focus=GER_ww1_large_navy }
 	}
 
 
@@ -1096,7 +1096,7 @@ focus_tree = {
 		cost = 10
 		x = 30
 		y = 4
-		mutually_exclusive = { focus=AST_ww1_flexible_navy }
+		mutually_exclusive = { focus=GER_ww1_flexible_navy }
 	}
 
 	focus = {
