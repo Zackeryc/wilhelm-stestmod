@@ -50,7 +50,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -76,7 +76,7 @@ technologies = {
 		}
 	
 		research_cost = 2.0
-		start_year = 1936
+		start_year = 1916
 
 		folder = {
 			name = industry_folder
@@ -162,7 +162,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -193,7 +193,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1922
+		start_year = 1914
 
 		folder = {
 			name = industry_folder
@@ -214,7 +214,7 @@ technologies = {
 		land_reinforce_rate = 0.01
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1916
 
 		folder = {
 			name = industry_folder
@@ -309,7 +309,7 @@ technologies = {
 		}
 	
 		research_cost = 2
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -338,7 +338,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -362,7 +362,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1922
+		start_year = 1914
 
 		folder = {
 			name = industry_folder
@@ -392,7 +392,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1922
+		start_year = 1914
 
 		folder = {
 			name = industry_folder
@@ -416,7 +416,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1916
 
 		folder = {
 			name = industry_folder
@@ -537,7 +537,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -595,7 +595,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1916
+		start_year = 1912
 		
 		folder = {
 			name = industry_folder
@@ -631,7 +631,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1922
+		start_year = 1914
 		
 		folder = {
 			name = industry_folder
@@ -701,7 +701,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1916
+		start_year = 1912
 		
 		categories = {
 			industry
@@ -758,7 +758,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1916
+		start_year = 1912
 		
 		categories = {
 			industry
@@ -788,7 +788,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1922
+		start_year = 1914
 		
 		categories = {
 			industry
@@ -819,7 +819,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1916
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
@@ -976,7 +976,7 @@ technologies = {
 	
 	concentrated_industry = {
 
-		start_year = 1936
+		start_year = 1916
 
 		industrial_capacity_factory = 0.2
 		global_building_slots_factor = 0.20
@@ -1142,7 +1142,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		start_year = 1936
+		start_year = 1916
 
 		industrial_capacity_factory = 0.1
 		line_change_production_efficiency_factor = 0.1
@@ -1379,7 +1379,7 @@ technologies = {
 		production_oil_factor = 0.02
 		
 		research_cost = 2
-		start_year = 1916
+		start_year = 1912
 
 		folder = {
 			name = industry_folder
@@ -1410,7 +1410,7 @@ technologies = {
 		}
 		
 		research_cost = 5
-		start_year = 1916
+		start_year = 1912
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 4 }
@@ -1437,7 +1437,7 @@ technologies = {
 
 	synth_oil_experiments = {
 
-		start_year = 1936
+		start_year = 1916
 
 		enable_building = {
 			building = synthetic_refinery
@@ -1472,7 +1472,7 @@ technologies = {
 	
 	oil_plant = {
 
-		start_year = 1936
+		start_year = 1916
 
 		enable_building = {
 			building = synthetic_refinery
@@ -1623,7 +1623,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1916
 		categories = {
 			industry
 			construction_tech
@@ -1641,7 +1641,7 @@ technologies = {
 
 	excavation1 = {
 
-		start_year = 1936
+		start_year = 1916
 		
 		 local_resources_factor = 0.10
 		

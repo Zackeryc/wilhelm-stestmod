@@ -278,7 +278,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -306,7 +306,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -606,7 +606,7 @@ technologies = {
 		}
 
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -627,7 +627,7 @@ technologies = {
 		navy_submarine_attack_factor = 0.02
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -830,7 +830,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -869,7 +869,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -891,7 +891,7 @@ technologies = {
 		air_superiority_efficiency = 0.03
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -914,7 +914,7 @@ technologies = {
 		}
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
