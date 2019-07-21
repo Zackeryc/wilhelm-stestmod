@@ -10,8 +10,8 @@ state={
 		}
 	history={
 		victory_points={ 10362 5 }
-		owner=URG
-		add_core_of=URG
+		owner=BRA
+		add_core_of=BRA
 		buildings={
 			infrastructure=5
 			industrial_complex=6

@@ -10,9 +10,9 @@ state={
 		tungsten=9
 		}
 	history={
-		owner=BOL
-		add_core_of=PAR
-		add_core_of=BOL
+		owner=BRA
+		add_core_of=BRA
+		add_core_of=BRA
 		1936.1.1={ 
 			owner=PAR
 			add_core_of=PAR

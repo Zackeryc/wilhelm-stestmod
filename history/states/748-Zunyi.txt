@@ -8,8 +8,8 @@ state={
 		wood=0
 		}
 	history={
-		owner=CHL
-		add_core_of=PRU
+		owner=BRA
+		add_core_of=BRA
 		1936.1.1={ owner=PRU }
 		buildings={
 			infrastructure=3

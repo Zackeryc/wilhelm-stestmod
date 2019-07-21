@@ -9,11 +9,11 @@ state={
 		}
 	history={
 		victory_points={ 8216 1 }
-		owner=ARG
-		add_core_of=ARG
+		owner=BRA
+		add_core_of=BRA
 		1936.1.1={ 
-			owner=ARG
-			add_core_of=ARG
+			owner=BRA
+			add_core_of=BRA
 			victory_points={ 8216 1 }
 			buildings={
 				infrastructure=3

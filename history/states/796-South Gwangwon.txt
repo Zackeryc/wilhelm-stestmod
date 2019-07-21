@@ -7,12 +7,12 @@ state={
 	
 
 	history={
-		owner = KOR
-		add_core_of = KOR
+		owner = BRA
+		add_core_of = BRA
 		1910.8.20 = {
-			owner = JAP
-			add_core_of = JAP
-		    add_core_of = KOR
+			owner = BRA
+			add_core_of = BRA
+		    add_core_of = BRA
 
 		}
 		1936.1.1 = {

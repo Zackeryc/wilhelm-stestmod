@@ -9,11 +9,11 @@ state={
 		steel = 30
 		}
 	history={
-		owner=ECU
-		add_core_of=ECU
+		owner=BRA
+		add_core_of=BRA
 		1936.1.1={
-			owner=ECU
-			add_core_of=ECU
+			owner=BRA
+			add_core_of=BRA
 			buildings={
 				infrastructure=3
 				industrial_complex=1

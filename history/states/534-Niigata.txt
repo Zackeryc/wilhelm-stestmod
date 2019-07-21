@@ -9,11 +9,11 @@ state={
 		}
 	history={
 		victory_points={ 1117 10 }
-		owner=JAP
-		add_core_of=JAP
+		owner=BRA
+		add_core_of=BRA
 		1936.1.1={ 
-			owner=JAP
-			add_core_of=JAP
+			owner=BRA
+			add_core_of=BRA
 			victory_points={ 1117 10 }
 			buildings={
 				infrastructure=4
