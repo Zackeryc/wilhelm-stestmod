@@ -127,6 +127,7 @@ set_technology = {
 	add_ideas = {
 		neutrality_idea
 		limited_conscription
+		neutral_land
 	}
 create_equipment_variant={ name="Aquidaban Class" type=battleship_1890 parent_version = 0 obsolete=no upgrades={ ship_gun_upgrade=0 ship_armor_upgrade=5 ship_engine_upgrade=2 ship_reliability_upgrade=5           } }
 create_equipment_variant={ name="Guanabara Class" type=light_cruiser_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=5  ship_engine_upgrade=0 ship_reliability_upgrade=5 ship_anti_air_upgrade=0          } }
