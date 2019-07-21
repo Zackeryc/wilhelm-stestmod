@@ -10,8 +10,7 @@ state={
 		}
 	history={
 		victory_points={ 8010 3 }
-		owner=BHU
-		add_core_of=BHU
+		owner=ENG
 		1936.1.1={ 
 			owner=BHU
 			add_core_of=BHU

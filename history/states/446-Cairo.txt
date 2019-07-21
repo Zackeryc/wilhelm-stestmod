@@ -9,8 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 7011 5 }
-		owner=EGY
-		add_core_of=EGY
+		owner=ENG
 		1936.1.1={ 
 			owner=ENG
 			add_core_of=EGY
@@ -23,7 +22,6 @@ state={
 			}
 		buildings={
 			infrastructure=5
-			industrial_complex=2
 			arms_factory=2
 			}
 		}
