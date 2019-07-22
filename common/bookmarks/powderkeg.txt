@@ -16,9 +16,9 @@ bookmarks = {
 				ww1_Scramble_for_Africa
 			}
 			focuses = {
-				FRA_ww1_triple_alliance
+				FRA_ww1_alsaceloreaine_propaganda
 				FRA_ww1_agadir_crisis
-				FRA_ww1_ready_country
+				FRA_ww1_you_shall_not_pass
 			}
 		}
 		"TUR"={
@@ -41,9 +41,9 @@ bookmarks = {
 				ww1_Scramble_for_Africa
 			}
 			focuses = {
-				ENG_ww1_aviation_effort
+				ENG_ww1_small_arms_focus
 				ENG_ww1_protect_suez
-				ENG_ww1_airship_focus
+				ENG_ww1_crypto_bomb_focus
 			}
 		}
 		"GER"={
@@ -56,8 +56,8 @@ bookmarks = {
 			}
 			focuses = {
 				GER_ww1_support_kaiser
-				GER_ww1_agadir_crisis
-				GER_ww1_secret_alliance_rom
+				GER_ww1_war_with_france
+				GER_strat_bombing
 			}
 		}
 		"ITA"={
@@ -68,7 +68,7 @@ bookmarks = {
 				ww1_Scramble_for_Africa
 			}
 			focuses = {
-				ITA_ww1_aviation_effort
+				ITA_ww1_italian_highways
 				ITA_ww1_libyan_claims
 				ITA_ww1_back_france
 			}
@@ -81,9 +81,9 @@ bookmarks = {
 				AUH_ww1_Multinational_State
 			}
 			focuses = {
-				AUH_ww1_back_italy
-				AUH_ww1_military_advisors
-				AUH_ww1_aviation_effort
+				AUH_ww1_same_language
+				AUH_ww1_unitedpeople
+				AUH_ww1_oirganization_realm
 			}
 		}
 		"RUS"={
@@ -95,9 +95,9 @@ bookmarks = {
 			RUS_ww1_mixed_railways
 			}
 			focuses = {
-				RUS_ww1_pro_fra
-				RUS_wilhlems_deal
-				RUS_ww1_naval_effort
+				RUS_ww1_church_alliance
+				RUS_ww1_brusilov_offensive
+				RUS_ww1_british_naval_treaties
 			}
 		}
 
