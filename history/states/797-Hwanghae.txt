@@ -2,19 +2,13 @@ state={
 	id=797
 	name="STATE_797"
 	resources={
-		wood=5
-		steel=2
-		tungsten=5
 	}
 	
 
 	history={
 		owner = BRA
-		add_core_of = BRA
 		1910.8.20 = {
 			owner = BRA
-			add_core_of = BRA
-		    add_core_of = BRA
 
 		}
 		1936.1.1 = {

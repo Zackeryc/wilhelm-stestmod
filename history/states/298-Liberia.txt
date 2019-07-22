@@ -5,8 +5,6 @@ state={
 	state_category=rural
 	provinces={ 7959 8006 }
 	resources={
-		wood=8
-		rubber=3
 		}
 	history={
 		victory_points={ 7959 3 }
