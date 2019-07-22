@@ -8,15 +8,8 @@ state={
 		wood=0
 		}
 	history={
-		owner=SAU
-		add_core_of=SAU
-		1936.1.1={ 
-			owner=SAU
-			add_core_of=SAU
-			buildings={
-				infrastructure=0
-				}
-			}
+		owner=TUR
+		add_core_of=TUR
 		buildings={
 			infrastructure=0
 			}
