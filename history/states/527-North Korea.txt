@@ -10,30 +10,8 @@ state={
 
 	history={
 		owner = BRA
-		add_core_of = BRA
-		1910.8.20 = {
-			owner = BRA
-			add_core_of = BRA
-            add_core_Of = KOR
 
 		}
-		1936.1.1 = {
-			owner = BRA
-			add_core_of = BRA
-			buildings = {
-				infrastructure = 3
-				industrial_complex = 1
-
-			}
-
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
-		}
-
-	}
 
 	provinces={
 		848 852 898 906 959 3803 3852 3904 3981 6822 6922 6928 6944 9899 11878

@@ -11,14 +11,5 @@ state={
 	history={
 		victory_points={ 8113 5 }
 		owner=BRA
-		add_core_of=BRA
-		buildings={
-			infrastructure=4
-			industrial_complex=3
-			arms_factory=1
-			dockyard=1
-			8113={ naval_base=3 }
-			10912={ naval_base=2 }
-			}
 		}
 	}

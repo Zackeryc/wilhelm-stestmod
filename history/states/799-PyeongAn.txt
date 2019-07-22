@@ -7,31 +7,6 @@ state={
 			4052 10 
 		}
 		owner = BRA
-		add_core_of = BRA
-		1910.8.20 = {
-			owner = BRA
-			add_core_of = BRA
-            add_core_Of = KOR
-
-		}
-		1936.1.1 = {
-			owner = BRA
-			add_core_of = BRA
-			victory_points = {
-				4052 1 
-			}
-			buildings = {
-				infrastructure = 3
-
-			}
-
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-
-		}
 
 	}
 

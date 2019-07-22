@@ -10,20 +10,5 @@ state={
 		}
 	history={
 		owner=BRA
-		add_core_of=BRA
-		1936.1.1={ 
-			owner=BRA
-			add_core_of=BRA
-			buildings={
-				infrastructure=3
-				industrial_complex=2
-				11002={ naval_base=1 }
-				}
-			}
-		buildings={
-			infrastructure=3
-			industrial_complex=1
-			11002={ naval_base=1 }
-			}
 		}
 	}

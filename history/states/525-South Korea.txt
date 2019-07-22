@@ -8,31 +8,7 @@ state={
 
 	history={
 		owner = BRA
-		add_core_of = BRA
-		1910.8.20 = {
-			owner = BRA
-			add_core_of = BRA
-			add_core_Of = BRA
-
-		}
-		1936.1.1 = {
-			owner = BRA
-			add_core_of = BRA
-			buildings = {
-				infrastructure = 3
-				industrial_complex = 1
-				dockyard = 1
-				arms_factory = 1
-
-			}
-
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-
-			}
+		
 
 		}
 

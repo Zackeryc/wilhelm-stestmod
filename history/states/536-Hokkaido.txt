@@ -12,18 +12,6 @@ state={
 		victory_points={ 10444 15 }
 		victory_points={ 12421 5 }
 		owner=BRA
-		add_core_of=BRA
-		1936.1.1={ 
-			owner=BRA
-			add_core_of=BRA
-			victory_points={ 10444 15 }
-			victory_points={ 12421 5 }
-			buildings={
-				infrastructure=3
-				}
-			}
-		buildings={
-			infrastructure=3
-			}
+		
 		}
 	}

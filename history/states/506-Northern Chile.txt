@@ -11,24 +11,5 @@ state={
 	history={
 		victory_points={ 12994 1 }
 		owner=BRA
-		add_core_of=BRA
-		1936.1.1={ 
-			owner=BRA
-			add_core_of=BRA
-			victory_points={ 12994 1 }
-			buildings={
-				infrastructure=3
-				industrial_complex=2
-				air_base=1
-				12994={ naval_base=1 }
-				5228={ naval_base=2 }
-				}
-			}
-		buildings={
-			infrastructure=3
-			industrial_complex=1
-			12994={ naval_base=1 }
-			5228={ naval_base=2 }
-			}
 		}
 	}

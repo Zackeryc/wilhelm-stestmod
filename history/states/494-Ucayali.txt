@@ -9,16 +9,5 @@ state={
 		}
 	history={
 		owner=BRA
-		add_core_of=BRA
-		1936.1.1={ 
-			owner=BRA
-			add_core_of=BRA
-			buildings={
-				infrastructure=3
-				}
-			}
-		buildings={
-			infrastructure=3
-			}
 		}
 	}
