@@ -395,7 +395,27 @@ focus_tree = {
 					add_timed_idea = {
 							idea = allied_counter_offensive 
 							days = 64
-			}
+					}
+					CAN = {
+						add_timed_idea = {
+							idea = allied_counter_offensive 
+							days = 64 }
+					}
+					AST = {
+						add_timed_idea = {
+							idea = allied_counter_offensive 
+							days = 64 }
+					}
+					ENG = {
+						add_timed_idea = {
+							idea = allied_counter_offensive 
+							days = 64 }
+					}
+					FRA = {
+						add_timed_idea = {
+							idea = allied_counter_offensive 
+							days = 64 }
+					}
 		}
 		ai_will_do = { factor = 10 }
 		cost = 10

@@ -417,7 +417,26 @@ focus_tree = {
 					add_timed_idea = {
 							idea = FRA_you_shall_not_pass
 							days = 365
-			}
+					}
+					CAN= {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					AST = {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					ENG = {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					
 		}
 		ai_will_do = { factor = 2000 }
 		x = 10

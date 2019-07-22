@@ -200,13 +200,33 @@ ideas={
 					}
 				}
 				
-		GER_schlieffen_plan = { 
+		GER_Kaiserschlacht = { 
 			allowed = {original_tag = FRA} 
 			allowed_civil_war = {always = FRA} 
 			removal_cost = -1 
 			picture = GFX_idea_German_staff_ww1
 			targeted_modifier = {
 				tag = FRA 
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = AST 
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = CAN
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = ENG
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = USA 
 				defense_bonus_against = 0.20
 				attack_bonus_against = 0.20
 				}
@@ -228,6 +248,14 @@ ideas={
 				army_org_factor = -0.25
 			}
 		}
+		
+		dig_in = {
+			allowed = {original_tag = GER} 
+			allowed_civil_war = { has_government=democratic } 
+			removal_cost = -1 
+			modifier = { production_speed_trench_factor = 2.00 } }
+			
+			
 		#KiS ======================================================
 
 

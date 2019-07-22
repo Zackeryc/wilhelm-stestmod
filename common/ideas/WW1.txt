@@ -185,9 +185,34 @@ ideas = {
             }
         }
 
+		Siege_of_in_Lwow_AUH = {
+			picture = generic_infantry_bonus allowed = {
+                always = no
+            }
+			 emoval_cost = -1 
+			targeted_modifier = {
+				tag = RUS 
+				defense_bonus_against = -0.20
+				attack_bonus_against = -0.20
+				}
+		}
 
-
-
+		Siege_of_in_Lwow_RUS = {
+			picture = generic_infantry_bonus allowed = {
+                always = no
+            }
+			removal_cost = -1 
+			targeted_modifier = {
+				tag = AUH 
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = GER
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+		}
 
 
 
@@ -197,9 +222,37 @@ ideas = {
             picture = generic_infantry_bonus allowed = {
                 always = no
             }
-            removal_cost = -1 modifier = {
-                army_org = 5 army_morale_factor = 0.1
-            }
+            removal_cost = -1 
+			targeted_modifier = {
+				tag = FRA 
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = ENG
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = BEL
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = CAN
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = AST
+				defense_bonus_against = 0.20
+				attack_bonus_against = 0.20
+				}
+			targeted_modifier = {
+				tag = RUS
+				army_core_defence_factor = 0.20
+				attack_bonus_against = -0.20
+				}
         }
         building_dreadnoughts = {
             picture = generic_navy_bonus allowed = {
@@ -229,6 +282,6 @@ ideas = {
                     build_cost_ic = -0.05 instant = yes
                 }
             }
-        }
+     	 }
     }
 }

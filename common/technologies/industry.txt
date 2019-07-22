@@ -76,7 +76,7 @@ technologies = {
 		}
 	
 		research_cost = 2.0
-		start_year = 1916
+		start_year = 1936
 
 		folder = {
 			name = industry_folder
@@ -214,7 +214,7 @@ technologies = {
 		land_reinforce_rate = 0.01
 		
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1936
 
 		folder = {
 			name = industry_folder
@@ -416,7 +416,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1936
 
 		folder = {
 			name = industry_folder
@@ -472,7 +472,7 @@ technologies = {
 
 	ww1_tools1 = {
 	
-		production_factory_max_efficiency_factor = 0.01
+		production_factory_max_efficiency_factor = 0.10
 		
 		path = {
 			leads_to_tech = ww1_tools2
@@ -503,7 +503,7 @@ technologies = {
 
 	ww1_tools2 = {
 	
-		production_factory_max_efficiency_factor = 0.02
+		production_factory_max_efficiency_factor = 0.15
 		
 		path = {
 			leads_to_tech = ww1_tools3
@@ -529,7 +529,7 @@ technologies = {
 
 	ww1_tools3 = {
 	
-		production_factory_max_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.15
 		
 		path = {
 			leads_to_tech = basic_machine_tools
@@ -557,8 +557,8 @@ technologies = {
 
 	ww1_industry1 = {
 
-		industrial_capacity_factory = 0.1
-		global_building_slots_factor = 0.10
+		industrial_capacity_factory = 0.15
+		global_building_slots_factor = 0.15
 		
 		path = {
 			leads_to_tech = ww1_industry2
@@ -586,8 +586,8 @@ technologies = {
 	
 	ww1_industry2 = {
 
-		industrial_capacity_factory = 0.1
-		global_building_slots_factor = 0.10
+		industrial_capacity_factory = 0.15
+		global_building_slots_factor = 0.15
 		
 		path = {
 			leads_to_tech = ww1_industry3
@@ -617,8 +617,8 @@ technologies = {
 	
 	ww1_industry3 = {
 
-		industrial_capacity_factory = 0.1
-		global_building_slots_factor = 0.10
+		industrial_capacity_factory = 0.15
+		global_building_slots_factor = 0.15
 		
 		path = {
 			leads_to_tech = concentrated_industry 
@@ -653,7 +653,7 @@ technologies = {
 
 	ww1_construction1 = {
 		
-		production_speed_buildings_factor = 0.02
+		production_speed_buildings_factor = 0.10
 		
 		path = {
 			research_cost_coeff = 1
@@ -689,7 +689,7 @@ technologies = {
 
 	ww1_construction2 = {
 		
-		production_speed_buildings_factor = 0.02
+		production_speed_buildings_factor = 0.10
 		
 		path = {
 			research_cost_coeff = 1
@@ -721,7 +721,7 @@ technologies = {
 
 	ww1_mining1 = {
 		
-		 local_resources_factor = 0.05
+		 local_resources_factor = 0.10
 		
 		path = {
 			research_cost_coeff = 1
@@ -751,7 +751,7 @@ technologies = {
 	}
 	ww1_mining2 = {
 		
-		 local_resources_factor = 0.05
+		 local_resources_factor = 0.10
 		
 		path = {
 			research_cost_coeff = 1
@@ -781,7 +781,7 @@ technologies = {
 	}
 	ww1_mining3 = {
 		
-		 local_resources_factor = 0.05
+		 local_resources_factor = 0.10
 		
 		path = {
 			research_cost_coeff = 1
@@ -819,7 +819,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1916
+		start_year = 1936
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
@@ -976,7 +976,7 @@ technologies = {
 	
 	concentrated_industry = {
 
-		start_year = 1916
+		start_year = 1936
 
 		industrial_capacity_factory = 0.2
 		global_building_slots_factor = 0.20
@@ -1142,7 +1142,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		start_year = 1916
+		start_year = 1936
 
 		industrial_capacity_factory = 0.1
 		line_change_production_efficiency_factor = 0.1
@@ -1437,7 +1437,7 @@ technologies = {
 
 	synth_oil_experiments = {
 
-		start_year = 1916
+		start_year = 1936
 
 		enable_building = {
 			building = synthetic_refinery
@@ -1472,7 +1472,7 @@ technologies = {
 	
 	oil_plant = {
 
-		start_year = 1916
+		start_year = 1936
 
 		enable_building = {
 			building = synthetic_refinery
@@ -1623,7 +1623,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1916
+		start_year = 1936
 		categories = {
 			industry
 			construction_tech
@@ -1641,7 +1641,7 @@ technologies = {
 
 	excavation1 = {
 
-		start_year = 1916
+		start_year = 1936
 		
 		 local_resources_factor = 0.10
 		
