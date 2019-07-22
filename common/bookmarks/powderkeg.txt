@@ -119,18 +119,6 @@ bookmarks = {
 			}
 		}
 
-		"SER"={
-			minor = yes
-			history = "SER_POWDERKEG_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-				SER_first_balkan
-			}
-		}
-
 		"BUL"={
 			minor = yes
 			history = "BUL_POWDERKEG_DESC"
@@ -140,18 +128,6 @@ bookmarks = {
 			}
 			focuses = {
 				BUL_ww1_balkan_league
-			}
-		}
-
-		"BEL"={
-			minor = yes
-			history = "BEL_POWDERKEG_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-
 			}
 		}
 
@@ -178,45 +154,36 @@ bookmarks = {
 
 			}
 		}
-
-		"JAP"={
-			minor = yes
-			history = "JAP_POWDERKEG_DESC"
-			ideology = neutrality
+		
+		"CAN"={
+			history = "CAN_POWDERKEG_DESC"
+			ideology = democratic
 			ideas = {
-				state_shintoism
+				
 			}
 			focuses = {
+				CAN_ww1_army_effort
+				CAN_why_we_fight
+				CAN_interventionism_focus
+			}
+		}
+		
+		"AST"={
+			history = "AST_POWDERKEG_DESC"
+			ideology = democratic
+			ideas = {
 
+			}
+			focuses = {
+				AST_ww1_army_effort
+				AST_why_we_fight
+				AST_interventionism_focus
 			}
 		}
 		
 		"MEX"={
 			minor = yes
 			history = "MEX_POWDERKEG_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-
-		"HOL"={
-			minor = yes
-			history = "HOL_POWDERKEG_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"QIN"={
-			minor = yes
-			history = "QIN_POWDERKEG_DESC"
 			ideology = neutrality
 			ideas = {
 
