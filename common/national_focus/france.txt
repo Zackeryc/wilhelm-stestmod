@@ -410,7 +410,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FR_ww1_you_shall_not_pass
+		id = FRA_ww1_you_shall_not_pass
 		prerequisite = { focus = FRA_ww1_alsaceloreaine_war }
 		icon = GFX_goal_generic_major_war
 		completion_reward = {

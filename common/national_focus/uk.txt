@@ -289,8 +289,6 @@ focus_tree = {
 		id = ENG_ww1_triple_alliance
 		prerequisite = { focus=ENG_ww1_back_france focus=ENG_ww1_back_russia }
 
-		mutually_exclusive = { focus = ENG_ww1_join_GERMANY }
-
 		icon = GFX_goal_generic_demand_territory
 
 		bypass = {
@@ -476,35 +474,6 @@ focus_tree = {
 		y = 8
 	}
 
-	focus = {
-		id = uk_iran_focus
-		prerequisite = { focus=ENG_ww1_military_training_act focus=uk_lawrence_focus focus=uk_arab_focus }
-		icon = GFX_goal_generic_forceful_treaty
-		available = {
-			  GER={
-				   has_war_with=ENG
-				   }
-			  TUR={
-				   has_war_with=ENG
-				   }
-			  not={
-				   PER={
-					    has_war_with=ENG
-					    }
-				   }
-			  RAJ={
-				   controls_state=444
-				   }
-			   country_exists=PER
-			  }
-		bypass = { PER={ exists=no } }
-		completion_reward = { give_guarantee = PER }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 8
-		y = 9
-	}
-
 	#----------------------------------------------------------------------- 
 	# Bloc 2
 	#-----------------------------------------------------------------------
@@ -606,50 +575,6 @@ focus_tree = {
 		cost = 10
 		x = 12
 		y = 2
-	}
-
-	focus = {
-		id = ENG_ww1_support_romania
-		prerequisite = { focus = ENG_ww1_balkan_strategy }
-		icon = GFX_goal_generic_intelligence_exchange
-		available = { ROM={ exists=yes has_war=no NOT={ is_in_faction_with = ENG } } }
-		completion_reward = { ROM={ add_opinion_modifier={ target=ENG modifier=democratic_leanings_good } add_ideas=democratic_influence country_event={ id=generic.1 } } every_country={ limit={ NOT={ has_government=democratic } num_of_factories > 30 } add_opinion_modifier={ target=ROM modifier=democratic_leanings_bad } } }
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 3
-	}
-
-	focus = {
-		id = ENG_ww1_nordic_countries
-		prerequisite = { focus = ENG_ww1_support_romania }
-		icon = GFX_goal_generic_military_deal
-		completion_reward = { 
-			NOR = { 
-				add_opinion_modifier = { 
-					target = GER 
-					#modifier = HOI4TGW_Opinion_anti_ger_policy_malus 
-					modifier = embargo 
-				} 
-			}
-			SWE = { 
-				add_opinion_modifier = { 
-					target = GER 
-					#modifier = HOI4TGW_Opinion_anti_ger_policy_malus 
-					modifier = embargo 
-				} 
-			} 
-			GER = { 
-				add_opinion_modifier = { 
-					target = ENG 
-					modifier = HOI4TGW_Opinion_diplomats_malus 
-				} 
-			} 
-		}
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 12
-		y = 4
 	}
 	#-----------------------------------------------------------------------
 
@@ -756,21 +681,6 @@ focus_tree = {
 		cost = 5
 		x = 16
 		y = 4
-	}
-
-	focus = {
-		id = ENG_ww1_asia_mobilization
-		prerequisite = { focus = ENG_ww1_hongkong_focus }
-		icon = GFX_goal_generic_military_sphere
-		available = {
-			country_exists = RAJ
-			has_war_with = GER
-		}
-		completion_reward = { }
-		ai_will_do = { factor = 10 }
-		cost = 5
-		x = 16
-		y = 5
 	}
 	#-----------------------------------------
 
