@@ -62,6 +62,12 @@ generic = {
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
+	stormtrooper = {
+		prefix = ""
+		generic = { "Stormtrooper Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
 	paratrooper = {
 		prefix = ""
 		generic = { "Airborne Division" }

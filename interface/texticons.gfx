@@ -285,7 +285,13 @@ spriteTypes = {
 		name = "GFX_nato_unit_marine_icon_small"
 		texturefile = "gfx/texticons/nato_unit_marine_icon_small.dds"
 		legacy_lazy_load = no
-	}		
+	}	
+
+	spriteType = {
+		name = "GFX_nato_unit_stormtrooper_icon_small"
+		texturefile = "gfx/texticons/nato_unit_stormtrooper_icon_small.dds"
+		legacy_lazy_load = no
+	}	
 	
 	spriteType = {
 		name = "GFX_nato_unit_motorized_icon_small"
@@ -469,6 +475,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_marine_icon_small"
 		texturefile = "gfx/texticons/unit_marine_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}	
+
+	spriteType = {
+		name = "GFX_unit_stormtrooper_icon_small"
+		texturefile = "gfx/texticons/unit_stormtrooper_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}		

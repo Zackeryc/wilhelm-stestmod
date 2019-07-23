@@ -114,14 +114,7 @@ country_event = {
 				surrender_progress > 0.15
 			}
 			ITA = {
-				controls_state = 448
-				controls_state = 449
-				controls_state = 450
 				controls_state = 451
-
-				controls_state = 661
-				controls_state = 662
-				controls_state = 663
 			}
 		}
 		has_civil_war = no
@@ -181,7 +174,7 @@ country_event = {
 		transfer_state = 662
 		transfer_state = 663
 		transfer_state = 663
-		transfer_state = 754 	# Fixed bug introduced by 1.4 Oak  
+		transfer_state = 754 
 
 		hidden_effect = {
 			ITA = {
@@ -256,7 +249,7 @@ country_event = {
 #		}	
 #	}
 #
-#	option = {
+#	option = { 
 #		name = "It's a defeat"
 #		ai_chance={
 #			factor=100

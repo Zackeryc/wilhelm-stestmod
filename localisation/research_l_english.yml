@@ -264,6 +264,8 @@
  paratroopers3:0 "Paratroopers III"
  paratroopers3_desc:0 "Learning to adapt paradrop operations according to weather, standardizing equipment such as jump boots and extended specialized training will minimize the confusion and risks involved in these dangerous missions."
 
+ stormtroopers:0 "Stormtroopers"
+ stormtroopers_desc:0 "Stormtroopers are used to heavily assault the defensive lines of your enemy in order to achieve a breakthrough in specific places. These units have a higher break through and hard attack compared regular infantry. However Shock Troops or Stoßtruppen also have a higher supply consumption and an elevated recovery time."
 
  marines:0 "Marines I"
  marines_desc:0 "Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training."

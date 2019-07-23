@@ -62,13 +62,6 @@ create_navy_leader={  name = "Marcello Amero d'Aste-Stella" id=46076 portrait_pa
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-	complete_national_focus = ITA_ww1_army_effort
-	complete_national_focus = ITA_ww1_industrial_effort
-	complete_national_focus = ITA_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = ITA_ww1_diplomatic_effort
 	#-------------------------------------------------------
 
 	set_technology = {
