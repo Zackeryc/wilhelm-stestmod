@@ -1,4 +1,4 @@
-name="Wilhelm's Test Mod"
+﻿name="Wilhelm's Test Mod"
 path="mod/wilhelm-stestmod/"
 tags={
 	"Balance"
