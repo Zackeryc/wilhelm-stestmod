@@ -156,6 +156,7 @@ bookmarks = {
 		}
 		
 		"CAN"={
+			minor = yes
 			history = "CAN_POWDERKEG_DESC"
 			ideology = democratic
 			ideas = {
@@ -169,6 +170,7 @@ bookmarks = {
 		}
 		
 		"AST"={
+			minor = yes
 			history = "AST_POWDERKEG_DESC"
 			ideology = democratic
 			ideas = {

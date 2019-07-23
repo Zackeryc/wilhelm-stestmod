@@ -1,5 +1,10 @@
 l_english:
-CAN_political_effort:0 "Political Effort"
+
+
+ #--------------------------------------------------------------
+ # [Canada] Army Effort
+ #=========================================================================
+ CAN_political_effort:0 "Canadian Expeditionary Force"
 CAN_political_effort_desc:0 ""
 CAN_ww1_sovereignst_ethos:0 "Sovereignst Ethos"
 CAN_ww1_sovereignst_ethos_desc:0 ""
