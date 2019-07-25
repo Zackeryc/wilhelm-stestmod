@@ -96,13 +96,6 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-	complete_national_focus = AUH_ww1_army_effort
-	complete_national_focus = AUH_ww1_industrial_effort
-	complete_national_focus = AUH_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = AUH_ww1_diplomatic_effort
 	#-------------------------------------------------------
 
 	set_technology = {

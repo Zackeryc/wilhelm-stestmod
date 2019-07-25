@@ -29,7 +29,13 @@ create_corps_commander={  name = "Currie J.A." id=13015 portrait_path="gfx/gener
 	logistics_skill = 5
 }
 
-create_corps_commander={  name = "Mercer,M.S." id=13016 portrait_path="gfx/generals/CAN_mercer_ms.tga" traits={   } skill=2 }
+create_corps_commander={  name = "Mercer,M.S." id=13016 portrait_path="gfx/generals/CAN_mercer_ms.tga" traits={   } 
+	skill= 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
 create_corps_commander={  name = "Burstall,H.E." id=13017 portrait_path="gfx/generals/CAN_burstall_he.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Macdonell A.C." id=13018 portrait_path="gfx/generals/CAN_macdonell_ac.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Steele" id=13019 portrait_path="gfx/generals/CAN_steele.tga" traits={   } skill=3 }

@@ -634,9 +634,6 @@ ideas = {
 				has_dlc = "Together for Victory"
 			}
 
-			available = {
-				has_completed_focus = CAN_crown_corporations
-			}
 			
 			traits = { captain_of_industry }
 		}
