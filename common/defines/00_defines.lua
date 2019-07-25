@@ -465,10 +465,10 @@ NMilitary = {
 	WAR_SCORE_AIR_MONTHLY_FALLOFF = 10,			-- how much the warscore we got from the strategic bombing falls off every month.
 	
 	CORPS_COMMANDER_DIVISIONS_CAP = 24,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
-	DIVISION_SIZE_FOR_XP = 8,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
-	CORPS_COMMANDER_ARMIES_CAP = -1,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_DIVISIONS_CAP = 24,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_ARMIES_CAP = 5,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
+	DIVISION_SIZE_FOR_XP = 0,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
+	CORPS_COMMANDER_ARMIES_CAP = 1000,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_DIVISIONS_CAP = 100000,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_ARMIES_CAP = 10,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
 
 	UNIT_LEADER_GENERATION_CAPITAL_CONTINENT_FACTOR = 100, --Integer factor to multiply manpower.
 
@@ -520,7 +520,7 @@ NMilitary = {
 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 24.0,        -- total progress cost of movement while amphibious invading
 	LAND_SPEED_MODIFIER = 0.05,                    -- basic speed control
 	RIVER_CROSSING_PENALTY = -0.3,                 -- small river crossing
-	RIVER_CROSSING_PENALTY_LARGE = -0.6,           -- large river crossing
+	RIVER_CROSSING_PENALTY_LARGE = -0.4,           -- large river crossing
 	RIVER_CROSSING_SPEED_PENALTY = -0.25,           -- small river crossing
 	RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.5,     -- large river crossing
 	RIVER_SMALL_START_INDEX = 0,                   -- color indices for rivers
@@ -529,9 +529,9 @@ NMilitary = {
 	BASE_FORT_PENALTY = -0.07, 					   -- fort penalty		#HOI4TGW ::: BASE_FORT_PENALTY = -0.15,
 	MULTIPLE_COMBATS_PENALTY = -0.5,               -- defender penalty if attacked from multiple directions
 	DIG_IN_FACTOR = 0.02,						   -- bonus factor for each dug-in level
-	ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.1, -- XP gain per unit in combat
-	CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.5, -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
-	BASE_LEADER_TRAIT_GAIN_XP = 0.45,			   -- Base xp gain for traits per hour for armies
+	ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.0, -- XP gain per unit in combat
+	CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.0, -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
+	BASE_LEADER_TRAIT_GAIN_XP = 0.0,			   -- Base xp gain for traits per hour for armies
 	MAX_NUM_TRAITS = -1,						   -- cant have more, -1 to disable
 	ENEMY_AIR_SUPERIORITY_IMPACT = -0.35,          -- effect on defense due to enemy air superiorty
 	ENEMY_AIR_SUPERIORITY_DEFENSE = 0.70,	       -- more AA attack will approach this amount of help (diminishing returns)
@@ -548,18 +548,18 @@ NMilitary = {
 	WARSCORE_TOTAL_FACTOR = 3,						-- Warscore balancing value
 	WARSCORE_PROVINCE_FACTOR = 0.2,					-- Warscore effect from province
 	WARSCORE_MIN_HOURS = 48,						-- minimum hours
-	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001,
-	UNIT_EXPERIENCE_SCALE = 1.0,
-	UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0015,
+	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0000,
+	UNIT_EXPERIENCE_SCALE = 0.0,
+	UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.05,
 	TRAINING_MAX_LEVEL = 2,
 	DEPLOY_TRAINING_MAX_LEVEL = 1,
 	TRAINING_EXPERIENCE_SCALE = 62.0,
-	TRAINING_ORG = 0.2,
+	TRAINING_ORG = 0.15,
 	ARMY_EXP_BASE_LEVEL = 1,
 	UNIT_EXP_LEVELS = { 0.1, 0.3, 0.75, 0.9 },		-- Experience needed to progress to the next level
 	FIELD_EXPERIENCE_SCALE = 0.002,
-	FIELD_EXPERIENCE_MAX_PER_DAY = 3,				-- Most xp you can gain per day
-	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.5,		-- reduction factor in Xp from expeditionary forces
+	FIELD_EXPERIENCE_MAX_PER_DAY = 0,				-- Most xp you can gain per day
+	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.0,		-- reduction factor in Xp from expeditionary forces
 	LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0.005,		-- Experience scale for lend leased equipment used in combat.
 	LEADER_EXPERIENCE_SCALE = 1.0,
 	SLOWEST_SPEED = 4,
@@ -611,7 +611,7 @@ NMilitary = {
 	LOW_ORG_FOR_ATTACK = 0.5,                      -- at what org % we start affecting speed when doign hostile moves. scales down ZERO_ORG_MOVEMENT_MODIFIER
 
 	PLANNING_DECAY = 0.01,
-	PLAYER_ORDER_PLANNING_DECAY = 0.08,				-- Amount of planning lost due to player manual order
+	PLAYER_ORDER_PLANNING_DECAY = 0.01,				-- Amount of planning lost due to player manual order
 	PLANNING_GAIN = 0.02,
 	PLANNING_MAX = 0.3,                           	-- can get more from techs
 	CIVILWAR_ORGANIZATION_FACTOR = 0.3,			  	-- Multiplier of org for both sides when civilwar.	
@@ -672,7 +672,7 @@ NMilitary = {
 	PARADROP_PENALTY = -0.3, 						-- Combat penalty when recently paradropped
 	PARADROP_HOURS = 48,							-- time paratroopers suffer penalties in combat
 	COMBAT_SUPPLY_LACK_IMPACT = -0.33,				-- combat penalty if out of supply
-	COMBAT_STACKING_START = 8,						-- at what nr of divisions stacking penalty starts
+	COMBAT_STACKING_START = 12,						-- at what nr of divisions stacking penalty starts
 	COMBAT_STACKING_EXTRA = 4,                      -- extra stacking from directions
 	COMBAT_STACKING_PENALTY = -0.02,                -- how much stackign penalty per division
 	COMBAT_OVER_WIDTH_PENALTY = -2,					-- over combat width penalty per %.
@@ -714,15 +714,15 @@ NMilitary = {
 	ACCLIMATIZATION_LOSS_SPEED_FACTOR = 2.0,		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 
 
-	PROMOTE_LEADER_CP_COST = 30.0,					-- cost of promoting a leader
+	PROMOTE_LEADER_CP_COST = 0.0,					-- cost of promoting a leader
 	
 	FIELD_MARSHAL_ARMY_BONUS_RATIO = 0.5,           -- ratio to apply regular bonuses FM bonuses to armies
 	
-	FIELD_MARSHAL_XP_RATIO = 0.25,					-- xp gain ratio for army group leaders
+	FIELD_MARSHAL_XP_RATIO = 0.0,					-- xp gain ratio for army group leaders
 	
 	GARRISON_ORDER_ARMY_CAP_FACTOR = 3.0,			-- armies gets increased cap when they are garrisoned
 	
-	COMMANDER_LEVEL_UP_STAT_COUNT = 3, 				-- num stats gained on level up
+	COMMANDER_LEVEL_UP_STAT_COUNT = 0, 				-- num stats gained on level up
 	COMMANDER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 5, 5}, -- level up stat random base weights attack, defense, planning, logistics
 	
 	NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 5, 5}, -- level up stat random base weights attack, defense, maneuvering, coordination
@@ -765,14 +765,14 @@ NMilitary = {
 	BORDER_WAR_WIN_DAYS_AGAINST_EMPTY_OPPONENTS = 14,		-- border wars will be automatically won if no opponent shows up for this duration
 	
 	
-	MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP = 4.0,			-- you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe
-	XP_GAIN_FACTOR_FOR_MAX_RELATIVE_COMBAT_DAMAGE = 4.0,	-- XP factor scaling for max relative combat damage
+	MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP = 0.0,			-- you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe
+	XP_GAIN_FACTOR_FOR_MAX_RELATIVE_COMBAT_DAMAGE = 0.0,	-- XP factor scaling for max relative combat damage
 	
-	XP_DECAY_RATE_PER_HOUR_IN_COMBAT = 0.03,				-- you get reduced XP as combat drags
-	MIN_XP_RATE_TO_DECAY = 0.1,								-- minimum XP factor for dragged combats
+	XP_DECAY_RATE_PER_HOUR_IN_COMBAT = 0.00,				-- you get reduced XP as combat drags
+	MIN_XP_RATE_TO_DECAY = 0.0,								-- minimum XP factor for dragged combats
 	
-	XP_GAIN_PER_OVERRUN_UNIT = 35.0,						-- fixed XP gain per overrun unit
-	XP_GAIN_FOR_SHATTERING = 35.0,                          -- fixed XP gain per shattered unit
+	XP_GAIN_PER_OVERRUN_UNIT = 0.0,						-- fixed XP gain per overrun unit
+	XP_GAIN_FOR_SHATTERING = 0.0,                          -- fixed XP gain per shattered unit
 
 	UNIT_UPKEEP_ATTRITION = 0.00,							--Constant attrition value applied to armies.
 
