@@ -114,7 +114,7 @@ country_event = {
 				surrender_progress > 0.15
 			}
 			ITA = {
-				controls_state = 451
+				controls_state = 923
 			}
 		}
 		has_civil_war = no

@@ -22,7 +22,13 @@ create_corps_commander={  name = "Cox" id=5009 portrait_path="gfx/generals/AST_c
 create_corps_commander={  name = "Brand" id=5010 portrait_path="gfx/generals/AST_brand.tga" traits={   } skill=3 }
 create_corps_commander={  name = "Gellibrand" id=5011 portrait_path="gfx/generals/AST_gellibrand.tga" traits={   } skill=3 }
 create_corps_commander={  name = "Glasgow" id=5012 portrait_path="gfx/generals/AST_glasgow.tga" traits={   } skill=3 }
-create_corps_commander={  name = "Holmes" id=5013 portrait_path="gfx/generals/AST_holmes.tga" traits={   } skill=3 }
+create_corps_commander={  name = "Holmes" id=5013 portrait_path="gfx/generals/AST_holmes.tga" traits={   }
+	skill= 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
 create_corps_commander={  name = "MacLaurin" id=5014 portrait_path="gfx/generals/AST_maclaurin.tga" traits={   } skill=2 }
 create_corps_commander={  name = "Onslow" id=5015 portrait_path="gfx/generals/AST_onslow.tga" traits={   } skill=3 }
 create_corps_commander={  name = "Rosenthal" id=5016 portrait_path="gfx/generals/AST_rosenthal.tga" traits={   } skill=3 }

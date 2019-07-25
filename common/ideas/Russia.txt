@@ -84,28 +84,28 @@ ideas={
 
 			targeted_modifier = {
 				tag = GER 
-				attack_bonus_against = 0.20
-				defense_bonus_against = 0.20
+				attack_bonus_against = 0.50
+				defense_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = AUH
-				attack_bonus_against = 0.20
-				defense_bonus_against = 0.20
+				attack_bonus_against = 0.50
+				defense_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = BUL
-				attack_bonus_against = 0.20
-				defense_bonus_against = 0.20
+				attack_bonus_against = 0.50
+				defense_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = TUR
-				attack_bonus_against = 0.20
-				defense_bonus_against = 0.20
+				attack_bonus_against = 0.50
+				defense_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = ROM
-				attack_bonus_against = 0.20
-				defense_bonus_against = 0.20
+				attack_bonus_against = 0.50
+				defense_bonus_against = 0.50
 				}
 		}
 		

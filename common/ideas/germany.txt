@@ -207,28 +207,28 @@ ideas={
 			picture = GFX_idea_German_staff_ww1
 			targeted_modifier = {
 				tag = FRA 
-				defense_bonus_against = 0.20
-				attack_bonus_against = 0.20
+				defense_bonus_against = 0.50
+				attack_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = AST 
-				defense_bonus_against = 0.20
-				attack_bonus_against = 0.20
+				defense_bonus_against = 0.50
+				attack_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = CAN
-				defense_bonus_against = 0.20
-				attack_bonus_against = 0.20
+				defense_bonus_against = 0.50
+				attack_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = ENG
-				defense_bonus_against = 0.20
-				attack_bonus_against = 0.20
+				defense_bonus_against = 0.50
+				attack_bonus_against = 0.50
 				}
 			targeted_modifier = {
 				tag = USA 
-				defense_bonus_against = 0.20
-				attack_bonus_against = 0.20
+				defense_bonus_against = 0.50
+				attack_bonus_against = 0.50
 				}
 			}
 

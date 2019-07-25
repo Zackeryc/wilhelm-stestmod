@@ -37,28 +37,40 @@ create_field_marshal={
 	name = "Constantin Prezan" id=92101
 	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Constantin_Prezan.dds"
 	traits={ offensive_doctrine old_guard }
-	skill=3
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_field_marshal={
 	name = "Alexandru Averescu" id=92102
 	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Alexandru_Averescu.dds"
 	traits={ offensive_doctrine }
-	skill=3
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_field_marshal={
 	name = "Grigore Crăiniceanu" id=92103
 	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Grigore_Crainiceanu.dds"
 	traits={ defensive_doctrine }
-	skill=2
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_field_marshal={
 	name = "Ioan_Culcer" id=92104
 	portrait_path="gfx/hoi4tgw_portraits/ROM/army_generals/ROM_Ioan_Culcer.dds"
 	traits={ defensive_doctrine old_guard }
-	skill=2
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 
