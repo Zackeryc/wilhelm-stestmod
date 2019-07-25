@@ -40,16 +40,16 @@ create_country_leader={ name = "Ferdinand I" desc=BUL_ferdinand_i_DESC picture="
 #create_corps_commander={  name = "Vazov G." id=12071 portrait_path="gfx/generals/BUL_vazov_g.tga" traits={ fortress_buster  } skill=2 }
 
 create_corps_commander={  name = "Vladimir Vazov" id=75049 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Vladimir_Vazov.dds" traits={ commando } skill=3 
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander={  name = "Lukov H." id=12032 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Ivan_Lukov.dds" traits={   } skill=1 
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander={  name = "Zhekov" id=12077 portrait_path="gfx/hoi4tgw_portraits/BUL/army_generals/BUL_Nikola_Zhekov.dds" traits={   } skill=3 
 	attack_skill = 1
@@ -69,10 +69,10 @@ create_corps_commander={  name = "Kolev" id=12028 portrait_path="gfx/hoi4tgw_por
 #create_corps_commander={  name = "Zhostov" id=12078 portrait_path="gfx/generals/BUL_zhostov.tga" traits={   } skill=2 }
 
 create_field_marshal={  name = "Fichev" id=12018 portrait_path="gfx/fieldmarshal/BUL_fichev.tga" traits={ offensive_doctrine } skill=3 
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_navy_leader={  name = "Dobrev" id=12080 portrait_path="gfx/admiral/BUL_dobrev.tga" traits={   } skill=2 }

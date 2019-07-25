@@ -68,16 +68,16 @@ create_country_leader={ name = "Edward VII" desc=ENG_edward_vii_DESC picture="gf
 
 #create_field_marshal={  name = "French" id=28033 portrait_path="gfx/fieldmarshal/ENG_french.tga" traits={ defensive_doctrine  } skill=2 }
 create_field_marshal={  name = "Sir Douglas Haig" id=28039 portrait_path="gfx/fieldmarshal/ENG_haig__sir_d.tga" traits={ offensive_doctrine  } skill=4 
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_field_marshal={  name = "Hamilton I.S.M." id=28044 portrait_path="gfx/fieldmarshal/ENG_hamilton_ism.tga" traits={   } skill=2 
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_field_marshal={  name = "Aylmer Hunter-Weston" id=28049 portrait_path="gfx/fieldmarshal/ENG_hunter.tga" traits={   } skill=2 
 	attack_skill = 1
@@ -92,19 +92,19 @@ create_field_marshal={  name = "Sir Leslie Rundle" id=28077 portrait_path="gfx/f
 	logistics_skill = 3
 }
 create_field_marshal={  name = "Kitchener H.H." id=28258 portrait_path="gfx/fieldmarshal/ENG_kitchener_hh.tga" traits={ logistics_wizard organisational_leader } skill=4 
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 #create_field_marshal={  name = "Lyttelton" id=28259 portrait_path="gfx/fieldmarshal/ENG_lyttelton.tga" traits={   } skill=2 }
 
 #create_corps_commander={  name = "Aston" id=28005 portrait_path="gfx/generals/ENG_aston.tga" traits={ commando  } skill=2}
 create_corps_commander={  name = "Baden-Powell" id=28007 portrait_path="gfx/generals/ENG_baden_powell.tga" traits={   } skill=3
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_corps_commander={  name = "Baker-Carr" id=28008 portrait_path="gfx/generals/ENG_baker_carr.tga" traits={ panzer_leader  } skill=2
 	attack_skill = 1
@@ -137,10 +137,10 @@ create_corps_commander={  name = "Elles" id=28028 portrait_path="gfx/generals/EN
 	logistics_skill = 2
 }
 create_corps_commander={  name = "Glubb" id=28034 portrait_path="gfx/generals/ENG_glubb.tga" traits={  winter_specialist } skill=3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_corps_commander={  name = "Grierson" id=28038 portrait_path="gfx/generals/ENG_grierson.tga" traits={   } skill=4
 	attack_skill = 1
