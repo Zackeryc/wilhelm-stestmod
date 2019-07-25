@@ -45,10 +45,10 @@ create_corps_commander = {
 		old_guard 
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "von Hellingrath" 
@@ -110,10 +110,10 @@ create_corps_commander = {
 
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "von Einem" 
@@ -149,10 +149,10 @@ create_corps_commander = {
 
 	}
 	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "von der Marwitz" 
@@ -162,10 +162,10 @@ create_corps_commander = {
 		fortress_buster  
 	}
 	skill = 4
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "von Lettow-Vorbeck" 
