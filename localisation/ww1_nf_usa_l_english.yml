@@ -226,94 +226,29 @@ USA_ww1_extra_tech_slot_2_desc:0 "" #KAISER_ANONY
  # [USA] Political Effort
  #=========================================================================
  USA_ww1_political_effort:0 "Political Effort"
-  USA_ww1_political_effort_desc:0 "" #KAISER_ANONY
+ USA_ww1_political_effort_desc:0 "" #KAISER_ANONY
+  
+ USA_ww1_economic_reforms:0 "Economic Reforms"
+ USA_ww1_economic_reforms_desc:0 ""
+ 
+ USA_ww1_industrial_revitalization:0 "Industrial Revitalization"
+ USA_ww1_industrial_revitalization_desc:0 ""
+ 
+ USA_ww1_prosperity:0 "Economic Prosperity"
+ USA_ww1_prosperity_desc:0 ""
+ 
+ USA_ww1_arms_industry:0 "American Arms Industry"
+ USA_ww1_arms_industry_desc:0 ""
+ 
+ USA_ww1_american_might:0 "American Might"
+ USA_ww1_american_might_desc:0 ""
+ 
+ USA_ww1_mexican_question:0 "Chaos in Mexico"
+ USA_ww1_mexican_question_desc:0 "The civil war currently raging in Mexico has caused chaos at our border."
+ 
+ USA_ww1_send_the_black_jack:0 "Send the Black Jack"
+ USA_ww1_send_the_black_jack_desc:0 "We must send John Pershing to the Mexican border to bring justice to Pancho Villa."
 
- USA_ww1_internationalism_focus:0 "Internationalism Focus"
- USA_ww1_internationalism_focus_desc:0 "" #KAISER_ANONY
-
- USA_ww1_militarism:0 "Militarism"
- USA_ww1_militarism_desc:0 "" #KAISER_ANONY
-
- USA_ww1_indoctrination_focus:0 "Indoctrination"
- USA_ww1_indoctrination_focus_desc:0 "" #KAISER_ANONY
-
- USA_ww1_political_commissars:0 "Political Commissars"
- USA_ww1_political_commissars_desc:0 "" #KAISER_ANONY
-
- USA_ww1_paramilitarism:0 "Paramilitarism"
- USA_ww1_paramilitarism_desc:0 "" #KAISER_ANONY
-
- USA_ww1_political_correctness:0 "Political Correctness"
- USA_ww1_political_correctness_desc:0 "" #KAISER_ANONY
-
- USA_ww1_military_youth:0 "Military Youth"
- USA_ww1_military_youth_desc:0 "" #KAISER_ANONY
-
- USA_ww1_student_movement_focus:0 "Student Movement"
- USA_ww1_student_movement_focus_desc:0 "" #KAISER_ANONY
-
- USA_ww1_monarchy:0 "Authoritarianism Focus"
- USA_ww1_monarchy_desc:0 "" #KAISER_ANONY
-
- USA_ww1_democracy:0 "Democratism Focus"
- USA_ww1_democracy_desc:0 "" #KAISER_ANONY
-
- USA_ww1_centralizedpower:0 "Bureaucracy"
- USA_ww1_centralizedpower_desc:0 "" #KAISER_ANONY
-
- USA_ww1_freespeech:0 "Free Speech"
- USA_ww1_freespeech_desc:0 "" #KAISER_ANONY
-
- USA_ww1_reorganization_act:0 "Reorganization Act"
- USA_ww1_reorganization_act_desc:0 "" #KAISER_ANONY
-
- USA_ww1_limited_rearmament:0 "Limited Rearmament"
- USA_ww1_limited_rearmament_desc:0 "" #KAISER_ANONY
-
- USA_ww1_full_rearmament:0 "Full Rearmament"
- USA_ww1_full_rearmament_desc:0 "" #KAISER_ANONY
-
- USA_ww1_unitedpeople:0 "Patriotic Fervor"
- USA_ww1_unitedpeople_desc:0 "" #KAISER_ANONY
-
- USA_ww1_massive_effort:0 "Massive Effort"
- USA_ww1_massive_effort_desc:0 "" #KAISER_ANONY
-
- USA_ww1_fortify_city:0 "Civil Fortifications"
- USA_ww1_fortify_city_desc:0 "" #KAISER_ANONY
-
- USA_ww1_fortify_coast:0 "Coastal Defense"
- USA_ww1_fortify_coast_desc:0 "" #KAISER_ANONY
-
- USA_ww1_UnderwoodTariffAct:0 "Underwood Tariff Act"
- USA_ww1_UnderwoodTariffAct_desc:0 "" #KAISER_ANONY
-
- USA_ww1_Reconciliation:0 "National Reconciliation"
- USA_ww1_Reconciliation_desc:0 "" #KAISER_ANONY
-
- USA_ww1_AntiMexicanSentiment:0 "Anti-Mexican Sentiment"
- USA_ww1_AntiMexicanSentiment_desc:0 "" #KAISER_ANONY
-
- USA_ww1_SelectiveServiceAct:0 "Selective Service Act"
- USA_ww1_SelectiveServiceAct_desc:0 "" #KAISER_ANONY
-
- USA_ww1_BolshevikRevolution:0 "Acknowledge Bolshevik Revolution"
- USA_ww1_BolshevikRevolution_desc:0 "" #KAISER_ANONY
-
- USA_ww1_MarxistIdeas:0 "Adopt Marxist Ideas"
- USA_ww1_MarxistIdeas_desc:0 "" #KAISER_ANONY
-
- USA_ww1_SovietUSA:0 "Soviet States of Amerika"
- USA_ww1_SovietUSA_desc:0 "" #KAISER_ANONY
-
- USA_ww1_CommunistMenace:0 "The Communist Menace"
- USA_ww1_CommunistMenace_desc:0 "" #KAISER_ANONY
-
- USA_ww1_InterventionSiberia:0 "Intervention in Siberia"
- USA_ww1_InterventionSiberia_desc:0 "" #KAISER_ANONY
-
- USA_ww1_RedAlert:0 "Red Alert"
- USA_ww1_RedAlert_desc:0 "" #KAISER_ANONY
 
  #--------------------------------------------------------------
 
@@ -321,95 +256,43 @@ USA_ww1_extra_tech_slot_2_desc:0 "" #KAISER_ANONY
  # [USA] Diplomatic Effort
  #=========================================================================
 
-USA_ww1_diplomatic_effort:0 "Diplomatic Effort"
-USA_ww1_diplomatic_effort_desc:0 "" #KAISER_ANONY
-
-USA_ww1_MexicanRevolution:0 "Mexican Revolution Reaction"
-USA_ww1_MexicanRevolution_desc:0 "" #KAISER_ANONY
-
-USA_ww1_SupportPofirioDiaz:0 "Support Porfirio Díaz"
-USA_ww1_SupportPofirioDiaz_desc:0 "" #KAISER_ANONY
-
-USA_ww1_ColumbusRaid:0 "Columbus Raid"
-USA_ww1_ColumbusRaid_desc:0 "" #KAISER_ANONY
-
-USA_ww1_PanchoVillaExpedition:0 "Pressure Victoriano Huerta"
-USA_ww1_PanchoVillaExpedition_desc:0 "" #KAISER_ANONY
-
-USA_ww1_DeployArmyBorder:0 "Deploy Army to Border"
-USA_ww1_DeployArmyBorder_desc:0 "" #KAISER_ANONY
-
-USA_ww1_SupportMexicanRevolution:0 "Support the Revolution"
-USA_ww1_SupportMexicanRevolution_desc:0 "" #KAISER_ANONY
-
-USA_ww1_SendWeaponsMexicanRevolution:0 "Send Weapons to Revolutionary Forces"
-USA_ww1_SendWeaponsMexicanRevolution_desc:0 "" #KAISER_ANONY
-
-USA_ww1_InvadeMexico:0 "Invade Mexico"
-USA_ww1_InvadeMexico_desc:0 "" #KAISER_ANONY
-
-USA_ww1_NeutralForeignPolicy:0 "Neutral Foreign Policy"
-USA_ww1_NeutralForeignPolicy_desc:0 "" #KAISER_ANONY
-
-USA_ww1_War_in_Europe:0 "War in Europe Debates"
-USA_ww1_War_in_Europe_desc:0 "" #KAISER_ANONY
-
-USA_ww1_TakePosition:0 "Take Position"
-USA_ww1_TakePosition_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Pro_German:0 "Pro-German Policy"
-USA_ww1_Pro_German_desc:0 "" #KAISER_ANONY
-
-USA_ww1_RemoveLondonDiplomats:0 "Withdraw London Diplomats"
-USA_ww1_RemoveLondonDiplomats_desc:0 "" #KAISER_ANONY
-
-USA_ww1_EmbargoBritish:0 "Embargo The United Kingdom"
-USA_ww1_EmbargoBritish_desc:0 "" #KAISER_ANONY
-
-USA_ww1_CanadaAct:0 "Canada Act"
-USA_ww1_CanadaAct_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Join_Central_Power:0 "Join Central Powers"
-USA_ww1_Join_Central_Power_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Pro_British:0 "Pro-British Policy"
-USA_ww1_Pro_British_desc:0 "" #KAISER_ANONY
-
-USA_ww1_AntiGermanSubmarineWarfare:0 "Unrestricted Submarine Warfare Response"
-USA_ww1_AntiGermanSubmarineWarfare_desc:0 "" #KAISER_ANONY
-
-USA_ww1_EscadrilleLaFayette:0 "Escadrille La Fayette"
-USA_ww1_EscadrilleLaFayette_desc:0 "" #KAISER_ANONY
-
-USA_ww1_ZimmermanTelegram:0 "Reacts to the Zimmerman Telegram"
-USA_ww1_ZimmermanTelegram_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Join_Entente:0 "Declaration of War on Germany"
-USA_ww1_Join_Entente_desc:0 "" #KAISER_ANONY
-
-USA_ww1_ExpeditionaryForceFrance:0 "Expeditionary Force in France"
-USA_ww1_ExpeditionaryForceFrance_desc:0 "" #KAISER_ANONY
-
-USA_ww1_LibertyBonds:0 "Liberty Bonds"
-USA_ww1_LibertyBonds_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Pacifism:0 "Pacifism"
-USA_ww1_Pacifism_desc:0 "" #KAISER_ANONY
-
-USA_ww1_Isolationism:0 "Isolationism"
-USA_ww1_Isolationism_desc:0 "" #KAISER_ANONY
-
-USA_ww1_ReparationsSlavery:0 "Apologize for Slavery"
-USA_ww1_ReparationsSlavery_desc:0 "" #KAISER_ANONY
-
-USA_ww1_DecolonizationCommittee:0 "Decolonization Committee"
-USA_ww1_DecolonizationCommittee_desc:0 "" #KAISER_ANONY
-
-USA_ww1_IndiaIndependence:0 "Support Indian Independence"
-USA_ww1_IndiaIndependence_desc:0 "" #KAISER_ANONY
-
-USA_ww1_FreePhilippine:0 "Liberate Philippine"
-USA_ww1_FreePhilippine_desc:0 "" #KAISER_ANONY
-
-USA_ww1_SanctionJapanKorea:0 "Condemn Korea Annexation"
-USA_ww1_SanctionJapanKorea_desc:0 "" #KAISER_ANONY
+ USA_ww1_american_policy:0 "American Policy"
+ USA_ww1_american_policy_dec:0 ""
+ 
+ USA_ww1_woodrow_wilson:0 "President Woodrow Wilson"
+ USA_ww1_woodrow_wilson_desc:0 ""
+ 
+ USA_ww1_federal_reserve:0 "The Federal Reserve"
+ USA_ww1_federal_reserve_desc:0 ""
+ 
+ USA_ww1_neutrality:0 "American Neutrality"
+ USA_ww1_neutrality_desc:0 "It is the policy of the United States to refrain from intervening in European wars."
+ 
+ USA_ww1_prepardness:0 "Prepardness"
+ USA_ww1_prepardness_desc:0 "The United States must be prepared for war with Germany, incase it is unfortunately drawn into it"
+ 
+ USA_ww1_foreign_policy:0 "American Foregin Policy"
+ USA_ww1_foreign_policy_desc:0 ""
+ 
+ USA_ww1_neutral_nation:0 "Neutral Nation"
+ USA_ww1_neutral_nation_desc:0 "America is a Neutral Nation in the current war raging in Europe"
+ 
+ USA_ww1_german_uboat_effort:0 "German Uboat Effort"
+ USA_ww1_german_uboat_effort_desc:0 "The current German policy of unrestricted submarine warfar is illegal according to international law. The Germans must stop, or risk angering the American populace."
+ 
+ USA_ww1_sinking_the_lusitania:0 "Sinking of the Lusitania"
+ USA_ww1_sinking_the_lusitania_desc:0 "A German U-Boat has sunk the Lusitania, klling many Americans. This is horrendous!"
+ 
+ USA_ww1_anti_german_sentiment:0 "Anti German Sentiment"
+ USA_ww1_anti_german_sentiment_desc:0 "Anti German sentiment has swept accross the country due to the German U-Boat policy"
+ 
+ USA_ww1_war:0 "America Joins the War"
+ USA_ww1_war_desc:0 "The United States of America now finds itself at war with the Empire of Germany and its allies!"
+ 
+ USA_ww1_war_propoganda:0 "War Propoganda"
+ USA_ww1_war_propoganda_desc:0 "We must rally the people against Germany!"
+ 
+ USA_ww1_counter_offensive:0 "Launch the Counter Offensive"
+ USA_ww1_counter_offensive_desc:0 "The time has come to push the Germans back! For too long the imperialist scum have occupied northern France and Belgium. In the name of Freedom and Democracy, we must liberate Europe!"
+ 
+ 

@@ -9,7 +9,7 @@ state={
 		tungsten=0
 		}
 	history={
-		owner=RAJ
+		owner=ENG
 		1936.1.1={ 
 			owner=RAJ
 			buildings={
@@ -19,7 +19,6 @@ state={
 			}
 		buildings={
 			infrastructure=3
-			industrial_complex=1
 			}
 		}
 	}

@@ -10,8 +10,7 @@ state={
 		wood=0
 		}
 	history={
-		owner=EGY
-		add_core_of=EGY
+		owner=ENG
 		1936.1.1={ 
 			owner=ENG
 			add_core_of=EGY

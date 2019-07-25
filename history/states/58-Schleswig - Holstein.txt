@@ -28,7 +28,7 @@ state={
 		1939.1.1={ buildings={ synthetic_refinery=3 anti_air_building=5 dockyard=7 arms_factory=4 } }
 		buildings={
 			infrastructure=6
-			industrial_complex=2
+			industrial_complex=6
 			air_base=1
 			dockyard=2
 			arms_factory=1

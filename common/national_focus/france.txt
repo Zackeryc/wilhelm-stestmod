@@ -54,7 +54,7 @@ focus_tree = {
 		prerequisite = { focus=FRA_ww1_democracy }
 		icon = GFX_goal_generic_propaganda
 
-		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=0.15 uses=1 category=industry } add_political_power=50 }
+		completion_reward = { add_tech_bonus={ name=industrial_bonus bonus=1.00 uses=1 category=industry } add_political_power=50 }
 
 		ai_will_do = { factor = 30 }
 		cost = 10
@@ -97,8 +97,8 @@ focus_tree = {
 		                }
 		            }
 		        }
-		        add_extra_state_shared_building_slots = 1 add_building_construction = {
-		            type = industrial_complex level = 1 instant_build = yes
+		        add_extra_state_shared_building_slots = 4 add_building_construction = {
+		            type = industrial_complex level = 4 instant_build = yes
 		        }
 		    }
 		    add_political_power = 30
@@ -118,9 +118,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas=militarism_focus
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=land_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=naval_doctrine }
-			add_tech_bonus={ name=unitedpeople_a_bonus bonus=0.15 uses=1 category=air_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1.00 uses=1 category=land_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1.00 uses=1 category=naval_doctrine }
+			add_tech_bonus={ name=unitedpeople_a_bonus bonus=1.00 uses=1 category=air_doctrine }
 		}
 
 		ai_will_do = { factor = 30 }
@@ -187,8 +187,8 @@ focus_tree = {
 		y = 7
 		cost = 10
 		ai_will_do = { factor = 10 }	
-		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } } add_political_power=50 }
-		complete_tooltip = { add_extra_state_shared_building_slots=1 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
+		completion_reward = { random_owned_state={ limit={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } OR={ is_in_home_area=yes NOT={ owner={ any_owned_state={ free_building_slots={ building=arms_factory size > 0 include_locked=yes } is_in_home_area=yes } } } } } add_extra_state_shared_building_slots=4 add_building_construction={ type=arms_factory level=4 instant_build=yes } } add_political_power=50 }
+		complete_tooltip = { add_extra_state_shared_building_slots=4 add_building_construction={ type=arms_factory level=4 instant_build=yes } }
 	}
 
 
@@ -368,7 +368,7 @@ focus_tree = {
 			date > 1914.9.28
 		}
 		completion_reward = { 
-				production_speed_trench = 1.0
+				add_ideas = fortify_city
 			}
 		ai_will_do = { factor = 10 }
 		x = 6
@@ -410,10 +410,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FR_ww1_you_shall_not_pass
+		id = FRA_ww1_you_shall_not_pass
 		prerequisite = { focus = FRA_ww1_alsaceloreaine_war }
 		icon = GFX_goal_generic_major_war
-		completion_reward = { add_ideas = FRA_you_shall_not_pass }
+		completion_reward = {
+					add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+					}
+					CAN= {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					AST = {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					ENG = {
+						add_timed_idea = {
+							idea = FRA_you_shall_not_pass
+							days = 365
+						}
+					}
+					
+		}
 		ai_will_do = { factor = 2000 }
 		x = 10
 		y = 9
@@ -955,7 +979,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_ww1_aircraftprod_1
-		prerequisite = { focus=UFRA_ww1_aviation_effort_3 }
+		prerequisite = { focus=FRA_ww1_aviation_effort_3 }
 		icon = GFX_goal_generic_air_production
 		completion_reward = { add_tech_bonus={ name=aircraftprod_1_bonus bonus=1.00 uses=1 category=air_equipment } }
 		ai_will_do = { factor = 10 }
@@ -1034,7 +1058,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_ww1_air_innovation
-		prerequisite = { focus=RA_ww1_aviation_effort_5 }
+		prerequisite = { focus=FRA_ww1_aviation_effort_5 }
 		icon = GFX_goal_generic_air_fighter2
 		completion_reward = { air_experience=20 add_tech_bonus={ name=ww1_air_innovation_bonus bonus=1.00 uses=1 technology=ww1_fighter3 technology=ww1_fighter4 technology=early_fighter } }
 		ai_will_do = { factor = 10 }

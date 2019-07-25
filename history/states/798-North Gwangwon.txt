@@ -2,18 +2,13 @@ state={
 	id=798
 	name="STATE_798"
 	resources={
-		wood=4
-		steel=1
 	}
 	
 
 	history={
-		owner = KOR
-		add_core_of = KOR
+		owner = BRA
 		1910.8.20 = {
-			owner = JAP
-			add_core_of = JAP
-		    add_core_of = KOR
+			owner = BRA
 
 		}
 		1936.1.1 = {

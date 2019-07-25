@@ -145,7 +145,7 @@ technologies = {
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed
-  		research_speed_factor = 0.01
+  		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = radio 
@@ -278,7 +278,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -306,7 +306,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -606,7 +606,7 @@ technologies = {
 		}
 
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -627,7 +627,7 @@ technologies = {
 		navy_submarine_attack_factor = 0.02
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -650,7 +650,7 @@ technologies = {
 	mechanical_computing = {
 
 		# small boost to research speed
-		research_speed_factor = 0.01
+		research_speed_factor = 0.05
 		
 		path = {
 			leads_to_tech = tankaircraft1
@@ -822,7 +822,7 @@ technologies = {
 	mechanical_computing2 = {
 
 		# small boost to research speed
-		# research_time_factor = -0.01
+		research_speed_factor = 0.06
 		
 		path = {
 			leads_to_tech = tankaircraft2
@@ -830,7 +830,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1916
+		start_year = 1913
 		
 		folder = {
 			name = electronics_folder
@@ -869,7 +869,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -891,7 +891,7 @@ technologies = {
 		air_superiority_efficiency = 0.03
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder
@@ -914,7 +914,7 @@ technologies = {
 		}
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1916
 		
 		folder = {
 			name = electronics_folder

@@ -11,7 +11,7 @@ state={
 		steel=2
 		}
 	history={
-		owner=RAJ
+		owner=ENG
 		1936.1.1={ 
 			owner=RAJ
 			buildings={

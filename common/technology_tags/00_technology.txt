@@ -52,6 +52,7 @@ technology_categories = {
 	radar_tech
 	infantry_tech
 	marine_tech
+	stormtrooper_tech
 	construction_tech
 	excavation_tech
 	submarine_doctrine
@@ -85,6 +86,7 @@ technology_categories = {
 	asw_tech
 	naval_minesweeping
 	naval_minelaying
+	
 }
 
 technology_folders = {

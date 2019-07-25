@@ -102,6 +102,25 @@ focus_tree = {
 	}
 	
 	###########################################################################################################################
+
+	focus = {
+		id = GER_ww1_dig_in
+		icon = GFX_goal_generic_construction2
+		available = {
+			date > 1914.9.28
+			}
+		completion_reward = {
+			add_ideas = dig_in
+		}
+		x = 6
+		y = 0
+		cost = 0
+		ai_will_do = { 
+			factor = 500
+		}
+	}
+	
+	###########################################################################################################################
 	# DIPLOMATIC
 	###########################################################################################################################
 
@@ -610,22 +629,38 @@ focus_tree = {
 		y = 6
 	}
 
-	#National Focus: Schlieffen Plan
+	#National Focus: Kaiserschlacht
 	focus = {
 		id = GER_ww1_war_with_france
 		prerequisite = { focus = GER_ww1_ready_country }
 		icon = GFX_hoi4tgw_ironcross
 		available = {
-			date > 1914.7.28
+			date > 1916.7.1
 			}
 		completion_reward = {
-			add_ideas = GER_schlieffen_plan 
+					add_timed_idea = {
+							idea = GER_Kaiserschlacht 
+							days = 128
+					ROM = {
+						add_timed_idea = {
+							idea = GER_Kaiserschlacht 
+							days = 128 }
+					}
+					AUH = {
+						add_timed_idea = {
+							idea = GER_Kaiserschlacht 
+							days = 128 }
+					}
+					BUL = {
+						add_timed_idea = {
+							idea = GER_Kaiserschlacht 
+							days = 128 }
+					}
+		}
 		}
 		x = 15
 		y = 6
 		cost = 0
-
-
 		ai_will_do = { 
 			factor = 500
 		}
