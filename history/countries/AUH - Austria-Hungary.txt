@@ -359,7 +359,7 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 		AUH_ww1_House_Habsburg_Lorraine
 		AUH_ww1_Multinational_State
 		limited_conscription
-		#Austrian_staff
+		Austrian_staff
 	}
 	
 	create_equipment_variant={ name="U10 Class" type=coastal_submarine_1910 parent_version = 0 obsolete=no upgrades={    ship_reliability_upgrade=0       sub_torpedo_upgrade=0 sub_stealth_upgrade=0 sub_engine_upgrade=0  } }

@@ -15,7 +15,7 @@ ideas={
 			}
 
 	army_chief={
-			TUR_ahmed_cemal={ allowed={ tag=TUR } traits={ army_chief_defensive_1 } ai_will_do={ factor=1 } }
+			TUR_ahmed_cemal={ allowed={ tag=TUR } traits={ army_chief_defensive_2} ai_will_do={ factor=1 } }
 			TUR_mehmet_nazim={ allowed={ tag=TUR } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
 			}
 
@@ -29,8 +29,8 @@ ideas={
 
 
 	high_command={
-			TUR_huseyin_hilmi={ allowed={ tag=TUR } traits={ army_logistics_1 } ai_will_do={ factor=1 } }
-			TUR_ahmed_izzet={ allowed={ tag=TUR } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
+			TUR_huseyin_hilmi={ allowed={ tag=TUR } traits={ army_commando_2 } ai_will_do={ factor=1 } }
+			TUR_ahmed_izzet={ allowed={ tag=TUR } traits={ army_artillery_2 } ai_will_do={ factor=1 } }
 			TUR_mustafa_ismet={ allowed={ tag=TUR } traits={ army_infantry_1 } ai_will_do={ factor=1 } }
 			}
 	naval_manufacturer={
