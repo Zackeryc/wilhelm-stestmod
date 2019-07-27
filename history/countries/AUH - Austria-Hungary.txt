@@ -166,10 +166,10 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 5
-	    fascism = 5
-	    communism = 5
-	    neutrality = 85
+	    democratic = 7
+	    fascism = 2
+	    communism = 1
+	    neutrality = 90
 	}
 
 	add_ideas = {

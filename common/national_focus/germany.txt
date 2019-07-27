@@ -307,51 +307,6 @@ focus_tree = {
 		y = 6
 	}
 
-	# Finnish Civil War # Open Beta 0.5
-	focus = {
-		id = GER_ww1_finnish_civil_war
-
-		available = {
-
-			SOV = {exists = yes}
-
-			date > 1917.1.1
-			not = {has_global_flag = kis_treaty_of_versailles }
-
-			FIN = {
-				exists = yes
-				is_puppet=no
-			}
-		}
-		prerequisite = { focus=GER_ww1_send_advisor }
-
-		icon = GFX_goal_anti_comintern_pact
-
-		completion_reward = {
-			FIN = {
-				start_civil_war = {
-					ruling_party = democratic
-					ideology = communism
-					size = 0.1
-					capital = 150
-					states = { 150 }
-				}
-			}
-
-			hidden_effect = {
-				news_event = { id = ww1_finland.1 days = 3 } # Finnish Civil War
-			}
-		}
-
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 9
-		y = 7
-	}
-
-
-
-
 
 	#----------------------------------------------------------------------- 
 	# Bloc 2
@@ -393,60 +348,6 @@ focus_tree = {
 		y = 3
 	}
 
-	focus = {
-		id = GER_ww1_support_boer
-		prerequisite = { focus = GER_ww1_anti_uk }
-		icon = GFX_goal_molotov_ribbentrop_pact		
-		available = { 
-			SAF = {
-	 			exists = yes
-	 		}
-	 		NOT = { has_global_flag = kis_treaty_of_versailles }
-		}
-		completion_reward = { 
-			541 = {
-				add_building_construction = {
-					type = air_base
-					level = 1
-					#province = 5189
-					instant_build = yes
-				}
-			}
-			541 = {
-				add_building_construction = {
-					type = bunker
-					level = 1
-					#province = 5189
-					instant_build = yes
-				}
-			}			
-		}
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 12
-		y = 4
-	}
-
-	focus = {
-		id = GER_ww1_support_boer_war
-		prerequisite = { focus = GER_ww1_support_boer }
-		icon = GFX_goal_generic_small_arms
-		completion_reward = { country_event=ww1_germany.20 }
-		available = { 
-	 		ENG = {
-	 			exists = yes
-	 		}
-			has_war_with=ENG
-			SAF = {
-	 			exists = yes
-	 		}
-			has_war_with=SAF 
-		}
-		ai_will_do = { factor = 10 }
-		cost = 10
-		x = 12
-		y = 5
-	}
 
 	focus = {
 		id = GER_ww1_agadir_crisis
@@ -560,36 +461,6 @@ focus_tree = {
 		y = 3
 	}
 
-	focus = {
-		id = GER_ww1_bulgaria_friend
-		prerequisite = { focus = GER_ww1_anti_serb }
-		icon = GFX_goal_generic_military_deal
-		available = {
-
-			NOT = { 
-				has_global_flag = kis_treaty_of_versailles 
-			}
-
-			date > 1915.6.1 
-			is_puppet = no 
-			NOT= {  
-				has_war_with = BUL 
-			} 
-			BUL = { 
-				exists = yes 
-				is_puppet = no
-			}
-		}
-		completion_reward = { 
-			BUL = { 
-				country_event = ww1_bulgaria.1 
-			}
-		}
-		ai_will_do = { factor = 800 }
-		cost = 10
-		x = 17
-		y = 4
-	}
 	#-----------------------------------------------------------------------
 
 	focus = {
