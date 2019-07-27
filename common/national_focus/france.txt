@@ -32,7 +32,6 @@ focus_tree = {
 		cost = 10
 		x = 1
 		y = 1
-		mutually_exclusive = { focus=FRA_ww1_contest_republic }
 	}
 
 
@@ -309,13 +308,12 @@ focus_tree = {
 		cost = 10
 		x = 8
 		y = 4
-		mutually_exclusive = { focus = FRA_ww1_italy_deny }
 	}
 
 	#------------------------
 	focus = {
 		id = FRA_ww1_agadir_crisis
-		prerequisite = { focus=FRA_ww1_italy_deny focus=FRA_ww1_italy_support focus=FRA_ww1_help_serbia}
+		prerequisite = { focus=FRA_ww1_italy_support }
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		bypass = { GER = { has_completed_focus = GER_ww1_agadir_crisis } }
 		available = {

@@ -369,7 +369,7 @@ focus_tree = {
 		prerequisite = { focus=ROM_foreign_expeditions }
 		icon = GFX_goal_generic_propaganda
 		available = { has_war=yes is_in_faction=yes }
-		completion_reward = { if={ limit={ NOT={ has_idea=neutrality_idea } } set_rule={ ROM_create_factions=yes } } add_ideas=why_we_fight_focus }
+		completion_reward = { if={ limit={ NOT={ has_idea=neutrality_idea } } } add_ideas=why_we_fight_focus }
 		cost = 10
 		x = 6
 		y = 7

@@ -33,7 +33,6 @@ focus_tree = {
 		cost = 10
 		x = 1
 		y = 1
-		mutually_exclusive = { focus=ITA_ww1_contest_republic }
 	}
 
 	focus = {
@@ -125,7 +124,7 @@ focus_tree = {
 	
 	focus = {
 		id = ITA_ww1_limited_rearmament
-		prerequisite = { focus=ITA_ww1_unitedpeople focus=ITA_ww1_political_commissars  }
+		prerequisite = { focus=ITA_ww1_unitedpeople  }
 		icon = GFX_goal_generic_consumer_goods
 		completion_reward = { army_experience=10 add_political_power=100 }
 
@@ -137,7 +136,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_ww1_massive_effort
-		prerequisite = { focus=ITA_ww1_unitedpeople focus=ITA_ww1_political_commissars  }
+		prerequisite = { focus=ITA_ww1_unitedpeople  }
 		icon = GFX_goal_generic_construction
 
 		completion_reward = {
@@ -169,7 +168,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_ww1_reorganization_act
-		prerequisite = { focus=ITA_ww1_unitedpeople focus=ITA_ww1_political_commissars  }
+		prerequisite = { focus=ITA_ww1_unitedpeople  }
 		icon = GFX_goal_generic_production2
 		x = 4
 		y = 6
@@ -228,7 +227,6 @@ focus_tree = {
 		cost = 10
 		x = 6
 		y = 2
-		mutually_exclusive = { focus=ITA_ww1_back_ger }
 	}
 
 	focus = {
@@ -298,7 +296,6 @@ focus_tree = {
 	focus = {
 		id = ITA_ww1_german_africa
 		prerequisite = { focus=ITA_ww1_anti_ger }
-		prerequisite = { focus=ITA_ww1_second_balkan_war_finished }
 		available = {
 			NOT = { has_global_flag = kis_treaty_of_versailles }
 

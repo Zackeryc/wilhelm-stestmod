@@ -7,16 +7,12 @@
 
 #-------------------------------------------------------
 
-set_fuel_ratio = 0.19
+set_fuel_ratio = 0.40
 set_research_slots = 3
 
-set_stability = 0.65
+set_stability = 0.70
 set_war_support = 0.70
 set_convoys = 100
-
-puppet = HJZ 
-
-#puppet = YEM
 
 
 #-------------------------------------------------------
@@ -40,24 +36,24 @@ create_country_leader={ name = "Mehmed V" desc=TUR_mehmed_v_DESC picture="gfx/ho
 #ARMY
 1914.1.1 = {
 	create_field_marshal={  name = "Liman von Sanders" id=90147 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/GER_von_Snaders.dds" traits={ offensive_doctrine } skill=3 
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 5
 	}
 }
 
 create_field_marshal={  name = "Mustafa Kemal Paşa" id=90013 portrait_path="gfx/fieldmarshal/TUR_mustafa_kemal.dds" traits={ fast_planner defensive_doctrine } skill=4 
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 create_corps_commander={  name = "İsmail Enver Paşa" id=90007 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Enver.dds" traits={   } skill=2 
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
 }
 create_corps_commander={  name = "Mehmed Esad Paşa" id=90008 portrait_path="gfx/hoi4tgw_portraits/TUR/army_generals/TUR_Esad.dds" traits={   } skill=3 
 	attack_skill = 1

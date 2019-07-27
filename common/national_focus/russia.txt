@@ -24,7 +24,7 @@ focus_tree = {
 			id = RUS_ww1_industrialization
 			prerequisite = { focus = RUS_ww1_economic_reforms }
 			completion_reward = {
-				244 = { 
+				202 = { 
 					add_building_construction = {
 						type = infrastructure
 						level = 3
@@ -38,7 +38,7 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-				208 = {
+				206 = {
 					add_building_construction = {
 						type = infrastructure
 						level = 3

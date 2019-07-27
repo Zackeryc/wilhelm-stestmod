@@ -208,6 +208,7 @@ RUS_ww1_gasmask_focus_desc:0 ""
  
  RUS_ww1_brusilov_offensive:0 "The Brusilov Offensive"
  RUS_ww1_brusilov_offensive_desc:0 "With the Tsar's aproval, the army will commence a massive offensive with the goal of retaking our lost territory. The Russian people will not be left to suffer under the yoke of foreign Emperors any longer."
+ RUS_ww1_brusilov_offensive_tt:0 "§RKiev and Minsk must be held or the front will collapse!.§"
  
  RUS_ww1_political_reforms:0 "Political Reforms"
  RUS_ww1_political_reforms_desc:0 "No one will be writing any books (without the approval of the Tsar) about the Russian people's freedoms and liberties but some concessions can be granted in exchange for giving the Tsar greater control over the state."

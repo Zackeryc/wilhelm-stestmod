@@ -1,0 +1,19 @@
+focus_tree = {
+	id=bra_focus
+	default=no
+	country={ factor=0  modifier={ add=10 tag=BRA }  modifier={ add=10 original_tag=BRA } }
+
+	###########################################################################################################################
+	# POLITICAL
+	###########################################################################################################################
+
+	focus = {
+		id = BRA_ww1_political_effort
+		icon = GFX_goal_generic_consumer_goods
+		completion_reward = { add_state_claim = 454 }
+		ai_will_do = { factor = 120 }
+		cost = 10000
+		x = 1
+		y = 0
+	}
+}

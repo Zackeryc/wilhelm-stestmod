@@ -46,7 +46,6 @@ focus_tree = {
 		cost = 10
 		x = 1
 		y = 1
-		mutually_exclusive = { focus=TUR_ww1_ContestYoungTurksReforms }
 	}
 
 
@@ -427,8 +426,6 @@ focus_tree = {
 		cost = 10
 		x = 7
 		y = 3
-
-		mutually_exclusive = { focus=TUR_ww1_anti_ger }
 	}
 
 	focus = {
@@ -527,7 +524,7 @@ focus_tree = {
 	focus = {
 		id = TUR_ww1_technology_sharing
 
-		prerequisite = { focus = TUR_russian_ports    focus=TUR_ww1_EmbargoGermany }
+		prerequisite = { focus = TUR_russian_ports }
 
 		icon = GFX_goal_generic_scientific_exchange
 
