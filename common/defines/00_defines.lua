@@ -464,10 +464,10 @@ NMilitary = {
 	WAR_SCORE_AIR_WORTH_CAP = 1000,				-- the warscore limit we get from strategic bombing
 	WAR_SCORE_AIR_MONTHLY_FALLOFF = 10,			-- how much the warscore we got from the strategic bombing falls off every month.
 	
-	CORPS_COMMANDER_DIVISIONS_CAP = 24,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+	CORPS_COMMANDER_DIVISIONS_CAP =0,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 	DIVISION_SIZE_FOR_XP = 0,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
-	CORPS_COMMANDER_ARMIES_CAP = 1000,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
-	FIELD_MARSHAL_DIVISIONS_CAP = 100000,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+	CORPS_COMMANDER_ARMIES_CAP = 0,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
+	FIELD_MARSHAL_DIVISIONS_CAP = 0,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 	FIELD_MARSHAL_ARMIES_CAP = 10,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
 
 	UNIT_LEADER_GENERATION_CAPITAL_CONTINENT_FACTOR = 100, --Integer factor to multiply manpower.
@@ -479,9 +479,9 @@ NMilitary = {
 	MAX_DIVISION_SUPPORT_WIDTH = 1,			-- Max width of support in division designer.
 	MAX_DIVISION_SUPPORT_HEIGHT = 5,		-- Max height of support in division designer.
 	
-	BASE_DIVISION_BRIGADE_GROUP_COST = 20, 	--Base cost to unlock a regiment slot,
-	BASE_DIVISION_BRIGADE_CHANGE_COST = 5,	--Base cost to change a regiment column.
-	BASE_DIVISION_SUPPORT_SLOT_COST = 10, 	--Base cost to unlock a support slot
+	BASE_DIVISION_BRIGADE_GROUP_COST = 0, 	--Base cost to unlock a regiment slot,
+	BASE_DIVISION_BRIGADE_CHANGE_COST = 0,	--Base cost to change a regiment column.
+	BASE_DIVISION_SUPPORT_SLOT_COST = 0, 	--Base cost to unlock a support slot
 	
 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store		#HOI4TGW ::: MAX_ARMY_EXPERIENCE = 500,
 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store		#HOI4TGW ::: MAX_NAVY_EXPERIENCE = 500,
@@ -549,8 +549,8 @@ NMilitary = {
 	WARSCORE_PROVINCE_FACTOR = 0.2,					-- Warscore effect from province
 	WARSCORE_MIN_HOURS = 48,						-- minimum hours
 	UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0000,
-	UNIT_EXPERIENCE_SCALE = 0.05,
-	UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.05,
+	UNIT_EXPERIENCE_SCALE = 0.2,
+	UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.2,
 	TRAINING_MAX_LEVEL = 2,
 	DEPLOY_TRAINING_MAX_LEVEL = 1,
 	TRAINING_EXPERIENCE_SCALE = 62.0,

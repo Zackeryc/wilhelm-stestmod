@@ -45,7 +45,7 @@ ideas={
 
 	army_chief={
 			GER_wilhelm_heye={ allowed={ tag=GER } traits={ army_chief_maneuver_1 } ai_will_do={ factor=1 } }
-			#GER_hans_von_seeckt={ allowed={ tag=GER } traits={ army_chief_offensive_1 } ai_will_do={ factor=1 } }
+			GER_hans_von_seeckt={ allowed={ tag=GER } traits={ army_chief_offensive_2 } ai_will_do={ factor=1 } }
 			GER_august_von_mackensen={ allowed={ tag=GER } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }
 			GER_wilhelm_groener={ allowed={ tag=GER } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
 			GER_otto_von_lossow={ allowed={ tag=GER } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
@@ -93,7 +93,7 @@ ideas={
 
 			#GER_magnus_levetzow={ allowed={ tag=GER } traits={ navy_fleet_logistics_1 } ai_will_do={ factor=1 } }
 			#GER_max_von_grapow={ allowed={ tag=GER } traits={ navy_carrier_1 } ai_will_do={ factor=1 } }
-			GER_rudiger_von_der_goltz={ allowed={ tag=GER } traits={ army_artillery_1 } ai_will_do={ factor=1 } }
+			GER_rudiger_von_der_goltz={ allowed={ tag=GER } traits={ army_artillery_2 } ai_will_do={ factor=1 } }
 
 			#GER_paul_von_lettow_vorbeck={ allowed={ tag=GER } traits={ army_commando_1 } ai_will_do={ factor=1 } }
 			#GER_burghard_von_oven={ allowed={ tag=GER } traits={ army_entrenchment_1 } ai_will_do={ factor=1 } }
