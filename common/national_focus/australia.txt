@@ -370,7 +370,7 @@ focus_tree = {
 		prerequisite = { focus=AST_foreign_expeditions }
 		icon = GFX_goal_generic_propaganda
 		available = { has_war=yes is_in_faction=yes }
-		completion_reward = add_ideas=why_we_fight_focus }
+		completion_reward = { add_ideas=why_we_fight_focus }
 		cost = 10
 		x = 6
 		y = 7
