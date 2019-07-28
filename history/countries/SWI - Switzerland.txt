@@ -4,7 +4,7 @@
 #					GENERIC VALUES
 #-------------------------------------------------------
 set_fuel_ratio = 0.20
-set_research_slots = 3
+set_research_slots = 1
 set_stability = 0.85
 
 #-------------------------------------------------------
@@ -101,10 +101,10 @@ create_corps_commander={  name = "Wildbolz" id=81029 portrait_path="gfx/generals
 	    elections_allowed = yes
 	}
 	set_popularities = {
-	    democratic = 70
-	    fascism = 3
-	    communism = 2
-	    neutrality = 15
+	    democratic = 90
+	    fascism = 5
+	    communism = 5
+	    neutrality = 0
 	}
 
 	add_ideas = {

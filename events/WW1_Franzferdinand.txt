@@ -116,42 +116,7 @@ country_event = {
 		set_global_flag = kis_serbia_refuse
 		news_event = { days = 1 id = ww1_franzferdinand.102 }
 	}
-	option={
-		name=ww1_franzferdinand.2.b
-		ai_chance={
-			factor=0
-		}
-		set_global_flag = kis_serbia_accept
-		RUS={
-			country_event=ww1_franzferdinand.4
-		}
-		AUH={
-			puppet=SER
-		}
-		GER={
-			add_to_faction=SER
-		}
-		add_opinion_modifier={
-			target=RUS
-			modifier=small_decrease
-		}
-		add_opinion_modifier={
-			target=ENG
-			modifier=small_decrease
-		}
-		add_opinion_modifier={
-			target=FRA
-			modifier=small_decrease
-		}
-		add_opinion_modifier={
-			target=GER
-			modifier=medium_increase
-		}
-		add_opinion_modifier={
-			target=AUH
-			modifier=large_increase
-		}
-	}
+	
 }
 #____________________________________________________________
 

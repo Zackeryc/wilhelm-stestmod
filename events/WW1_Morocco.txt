@@ -127,17 +127,4 @@ country_event = {
 
         set_global_flag = SUPER_GLOBAL_Agadir_Crisis_Historical
     }
-    option = {
-        name = ww1_morocco.7.b
-        ai_chance = {
-            factor = 0
-        }
-        GER = {
-            set_country_flag = GER_ww1_schlieffen_plan
-            country_event = {
-                id = ww1_franzferdinand.8 days = 1
-            }
-        }
-        set_global_flag = SUPER_GLOBAL_Agadir_Crisis_War
-    }
 }

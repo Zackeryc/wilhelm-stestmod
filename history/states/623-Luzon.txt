@@ -12,7 +12,6 @@ state={
 		victory_points={ 1415 1 }
 		victory_points={ 12213 1 }
 		owner=USA
-		add_core_of=PHI
 		1936.1.1={ 
 			owner=PHI
 			add_core_of=PHI

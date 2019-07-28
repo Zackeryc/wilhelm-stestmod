@@ -50,7 +50,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = student_mobilization_idea
 		}
-		mutually_exclusive = { focus=BUL_ww1_LimitDemocracy }
 	}
 
 	focus = {
@@ -195,7 +194,6 @@ focus_tree = {
 
 	focus = {
 		id = BUL_ww1_CommunistMenace
-		prerequisite = { focus= BUL_ww1_BolshevikRevolution }
 		prerequisite = { focus= BUL_ww1_SelectiveServiceAct }
 		icon = GFX_goal_generic_war_with_comintern
 
@@ -204,8 +202,6 @@ focus_tree = {
 
  			add_ideas=indoctrination_focus
 
-			remove_ideas = internationalism	
-
 			add_political_power=50
 		}
 
@@ -213,7 +209,6 @@ focus_tree = {
 		cost = 10
 		x = 0
 		y = 6
-		mutually_exclusive = { focus=BUL_ww1_MarxistIdeas }
 	}
 	#-----------------------------------------
 
@@ -1535,7 +1530,7 @@ focus_tree = {
 		id = BUL_ww1_newnavalcanons_1
 		prerequisite = { focus=BUL_ww1_naval_effort }
 		icon = GFX_hoi4tgw_navalBULons
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalBULons_1_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 31
@@ -1559,7 +1554,7 @@ focus_tree = {
 		id = BUL_ww1_newnavalcanons_2
 		prerequisite = { focus=BUL_ww1_dreadnought_effort }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalBULons_2_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_2_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 31
@@ -1637,11 +1632,11 @@ focus_tree = {
 
 
 	focus = {
-		id = BUL_ww1_newnavalBULons_3
+		id = BUL_ww1_newnavalcanons_3
 		prerequisite = { focus=BUL_ww1_capital_ships_effort }
 		prerequisite = { focus=BUL_ww1_destroyer_effort }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalBULons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 31
@@ -1650,7 +1645,7 @@ focus_tree = {
 
 	focus = {
 		id = BUL_ww1_navyreform
-		prerequisite = { focus=BUL_ww1_newnavalBULons_3 }
+		prerequisite = { focus=BUL_ww1_newnavalcanons_3 }
 		icon = GFX_goal_generic_amphibious_assault
 		completion_reward = { navy_experience=25 }
 		ai_will_do = { factor = 10 }
@@ -1674,7 +1669,7 @@ focus_tree = {
 		id = BUL_ww1_antisubmarine
 		prerequisite = { focus=BUL_ww1_navyreform }
 		icon = GFX_goal_generic_navy_anti_submarine
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalBULons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 32

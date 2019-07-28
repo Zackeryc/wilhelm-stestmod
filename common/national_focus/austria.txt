@@ -626,8 +626,6 @@ focus_tree = {
 		id = AUH_ww1_military_harmonization
 		prerequisite = { 
 			focus=AUH_ww1_polnische_wehrmacht
-			focus=AUH_ww1_fortify_coast_dalmatia
-			focus=AUH_ww1_airport_russian_borders
 		}
 		icon = GFX_goal_generic_special_forces
 		available = { }
