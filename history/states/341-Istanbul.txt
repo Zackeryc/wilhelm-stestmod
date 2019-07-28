@@ -5,9 +5,9 @@ state={
 	state_category=city
 	provinces= { 849 922 3879 6895 9833 11829 	}
 	resources={
-		wood=2
-		coal=4
-		steel=1
+		wood=14
+		coal=50
+		steel=10
 		}
 	history={
 		victory_points={ 9833 20 }

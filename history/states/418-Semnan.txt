@@ -8,8 +8,7 @@ state={
 		wood=0
 		}
 	history={
-		owner=PER
-		add_core_of=PER
+		owner=BRA
 		1936.1.1={ 
 			owner=PER
 			add_core_of=PER

@@ -6,12 +6,10 @@ state={
 	provinces={ 1963 2026 4928 4983 5067 8031 8074 10828 12756 }
 	resources={
 		wood=0
-		oil=1
 		}
 	history={
 		victory_points={ 2026 1 }
-		owner=PER
-		add_core_of=PER
+		owner=BRA
 		1936.1.1={ 
 			owner=PER
 			add_core_of=PER

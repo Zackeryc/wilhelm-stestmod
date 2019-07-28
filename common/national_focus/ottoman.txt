@@ -323,7 +323,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = { factor = 200	}
-		cost = 10
+		cost = 5
 		x = 4
 		y = 4
 	}
@@ -375,7 +375,7 @@ focus_tree = {
 		}
 		
 		ai_will_do = { factor = 200	}
-		cost = 2
+		cost = 0
 		x = 4
 		y = 5
 	}
@@ -558,17 +558,10 @@ focus_tree = {
 		id = TUR_ww1_develop_arab
 		prerequisite = { focus=TUR_ww1_assert_position_east }
 		icon = GFX_goal_generic_construct_infrastructure
-		available = {
-			TUR = { 
-				controls_state = 677 
-				controls_state = 49
-				controls_state = 676
-			}
-		}
 		completion_reward = {
-		    677 = {
+		    341 = {
 		        add_building_construction = {
-		            type = infrastructure level = 1 instant_build = yes
+		            type = infrastructure level = 3 instant_build = yes
 		        }
 		    }
 		    49 = {
