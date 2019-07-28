@@ -11,7 +11,6 @@ state={
 		victory_points={ 12806 3 }
 		victory_points={ 12725 1 }
 		owner=ENG
-		add_core_of=EGY
 		1936.1.1={ 
 			owner=ENG
 			add_core_of=EGY

@@ -9,8 +9,7 @@ state={
 		wood=0
 		}
 	history={
-		owner=TUN
-		add_core_of=TUN
+		owner=FRA
 		1936.1.1={ 
 			owner=FRA
 			add_core_of=FRA

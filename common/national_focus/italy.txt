@@ -459,29 +459,6 @@ focus_tree = {
 		id = ITA_ww1_italian_development
 		prerequisite = { focus=ITA_ww1_diplomatic_effort }
 		icon = GFX_goal_generic_construct_civilian
-		ai_will_do = { factor = 20 }
-		cost = 10
-		x = 9
-		y = 1
-	}
-
-	focus = {
-		id = ITA_ww1_italian_highways
-		prerequisite = { focus=ITA_ww1_italian_development }
-		icon = GFX_goal_generic_construct_infrastructure
-		available = {
-			ITA = { 
-				controls_state = 2 
-				controls_state = 117
-				controls_state = 156
-				controls_state = 157
-				controls_state = 158
-				controls_state = 159
-				controls_state = 160
-				controls_state = 161
-				controls_state = 162
-			}
-		}
 		completion_reward = {
 		    2 = {
 		        add_building_construction = {
@@ -532,6 +509,33 @@ focus_tree = {
 		ai_will_do = { factor = 20 }
 		cost = 10
 		x = 9
+		y = 1
+	}
+
+	focus = {
+		id = ITA_ww1_italian_highways
+		prerequisite = { focus=ITA_ww1_italian_development }
+		icon = GFX_goal_generic_construct_infrastructure
+		completion_reward = {
+		    2 = {
+		        add_building_construction = {
+		            type = infrastructure level = 2 instant_build = yes
+		        }
+		    }
+		    159 = {
+		        add_building_construction = {
+		            type = infrastructure level = 2 instant_build = yes
+		        }
+		    }
+		    160 = {
+		        add_building_construction = {
+		            type = infrastructure level = 2 instant_build = yes
+		        }
+		    }
+		}
+		ai_will_do = { factor = 20 }
+		cost = 10
+		x = 9
 		y = 2
 	}
 
@@ -571,13 +575,13 @@ focus_tree = {
 		            type = bunker level = 2 province = 11587 instant_build = yes
 		        }
 		        add_building_construction = {
-		            type = bunker level = 2 province = 11548 instant_build = yes
+		            type = bunker level = 2 province = 11568 instant_build = yes
 		        }
 		    }
 		}
 		ai_will_do = { factor = 20 }
 		cost = 10
-		x = 10
+		x = 9
 		y = 3
 	}
 

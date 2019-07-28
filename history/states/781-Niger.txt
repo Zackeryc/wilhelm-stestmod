@@ -5,10 +5,9 @@ state={
 	manpower = 543817
 	
 	state_category = pastoral
-
+	impassable = yes
 	history={
 		owner = FRA
-		add_core_of = NGR
 		victory_points = {
 			2056 1
 		}

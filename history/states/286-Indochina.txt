@@ -15,10 +15,6 @@ state={
 	history={
 		victory_points={ 4401 3 }
 		owner=FRA
-
-		add_core_of=VNM
-
-
 		1936.1.1={ 
 			owner=FRA
 			victory_points={ 4401 3 }

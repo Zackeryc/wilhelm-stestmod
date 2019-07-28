@@ -5,7 +5,7 @@
 #-------------------------------------------------------
 set_fuel_ratio = 0.27
 set_research_slots = 4
-set_stability = 0.6
+set_stability = 0.65
 set_war_support = 0.70
 set_convoys = 800
 
@@ -14,27 +14,16 @@ if = {
 	limit = {
 		has_dlc = "Together for Victory"
 	}
-
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
 	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
+		freedom_level = 0.8
 	}
 
 	set_autonomy = {
 		target = AST
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		freedom_level = 0.8
 	}
 	else = {
 		puppet = RAJ
@@ -44,16 +33,9 @@ if = {
 	}
 }
 
-puppet = OMA
-puppet = NEP
-puppet = BHU
-puppet = EGY
-
 
 
 give_guarantee = BEL # United Kingdom guaranteed the independence of Belgium - Treaty of London (1839)
-
-give_military_access = RAJ
 
 #-------------------------------------------------------
 #					POLITICS & ARMY

@@ -13,8 +13,6 @@ state={
 		victory_points={ 4075 1 }
 		owner=FRA
 
-		add_core_of=VNM
-
 		1936.1.1={ 
 			owner=FRA
 			victory_points={ 4075 1 }

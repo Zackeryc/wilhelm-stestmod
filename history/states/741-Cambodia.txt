@@ -2,7 +2,6 @@ state={
 	id=741
 	name="Cambodia"
 	history = {
-		add_core_of = CAM
 		owner = FRA
 	}
 	resources={

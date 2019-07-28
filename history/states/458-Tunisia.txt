@@ -11,8 +11,7 @@ state={
 	history={
 		victory_points={ 11969 10 }
 		victory_points={ 9994 1 }
-		owner=TUN
-		add_core_of=TUN
+		owner=FRA
 
 		1936.1.1={ 
 
@@ -27,7 +26,6 @@ state={
 			}
 		buildings={
 			infrastructure=4
-			industrial_complex=1
 			air_base=2
 			9994={ naval_base=8 }
 			}

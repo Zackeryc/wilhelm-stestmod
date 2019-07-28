@@ -9,7 +9,6 @@ state={
 		}
 	history={
 		owner=TUR
-		add_core_of=LBA
 		add_core_of=TUR
 		1912.10.18 = { owner = ITA }
 		1936.1.1={ 

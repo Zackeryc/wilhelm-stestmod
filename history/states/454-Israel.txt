@@ -11,7 +11,6 @@ state={
 		victory_points={ 1086 1 }
 		victory_points={ 4206 1 }
 		owner=TUR
-		add_core_of=PAL
 		add_core_of=TUR
 		1936.1.1={ 
 			owner=ENG

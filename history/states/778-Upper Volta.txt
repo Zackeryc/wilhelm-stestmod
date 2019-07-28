@@ -3,11 +3,10 @@ state={
 	id=778
 	name="STATE_778" # Upper Volta
 	manpower = 3186184
-	
+	impassable = yes
 	state_category = pastoral
 	history={
 		owner = FRA
-		add_core_of = VOL
 		victory_points = {
 			10836 1
 		}

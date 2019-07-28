@@ -5,10 +5,9 @@ state={
 	manpower = 3324782
 	
 	state_category = rural
-
+	impassable = yes
 	history={
 		owner = FRA
-		add_core_of = MLI
 		victory_points = {
 			4927 1
 		}
