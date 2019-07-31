@@ -9,7 +9,7 @@ focus_tree = {
 	###########################################################################################################################
 
 	focus = {
-		id = ROM_political_effort
+		id = ROM_political_effort1
 		icon = GFX_goal_generic_demand_territory
 		completion_reward = { add_political_power=120 }
 		cost = 10
@@ -20,7 +20,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_ww1_sovereignist_ethos
-		prerequisite = { focus=ROM_political_effort }
+		prerequisite = { focus=ROM_political_effort1 }
 		icon = GFX_goal_anschluss
 		available = { }
 		completion_reward = { add_political_power=100 }
@@ -1187,4 +1187,50 @@ focus_tree = {
 		x = 30
 		y = 9
 	}
+	
+	focus = {
+		id = ROM_ww1_join_centralpowers
+
+		prerequisite = { focus = TUR_ww1_ready_country }
+
+		icon = GFX_goal_generic_major_alliance 
+
+		bypass = {
+			is_in_faction_with = GER
+		}
+
+	 	available = {
+ 			date > 1915.1.1 
+	 		GER = {
+	 			has_war_with = FRA
+	 		}
+	 		is_puppet = no
+	 		NOT = { has_war_with = GER }
+			is_in_faction = no
+	 		
+	 		GER = {
+	 			exists = yes
+ 				is_faction_leader = yes
+	 		}
+	 		NOT = { has_global_flag = kis_treaty_of_versailles }
+		}
+		completion_reward = {
+
+				GER={
+					add_to_faction=ROOT
+				}
+		}
+
+
+ 
+		ai_will_do = { factor = 0 }
+		cost = 0
+		x = 3
+		y = 0
+	}
+	
+	
+	
+	
+	
 }
