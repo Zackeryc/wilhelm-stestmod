@@ -47,15 +47,7 @@ units = {
 			division_template="Cavalry Division"
 			start_experience_factor=0.1
 			}
-	 navy = {
-		name = "Royal Australian Navy"
-		location=12406 # Sydney
-		base=12406 # Sydney
-
-ship = { name = "HMAS Encounter" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = ENG version_name = "Hermes Class" } } }
-ship = { name = "HMAS Pioneer" definition = light_cruiser equipment = { light_cruiser_1900 = { amount = 1 owner = ENG version_name = "Pelorus Class" } } }
-
-		}
+	
 	}
 air_wings = { 
 	}

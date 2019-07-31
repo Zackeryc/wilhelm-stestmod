@@ -238,7 +238,7 @@ focus_tree = {
 		icon = GFX_goal_generic_cavalry
 		completion_reward = { add_war_support = 0.05 }
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 8
 		y = 2
 	}
@@ -249,7 +249,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		completion_reward = { add_war_support = 0.05 }
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 8
 		y = 3
 	}
@@ -305,7 +305,7 @@ focus_tree = {
 		    }
 		}
 		ai_will_do = { factor = 0 }
-		cost = 10
+		cost = 5
 		x = 8
 		y = 4
 	}
@@ -340,7 +340,7 @@ focus_tree = {
 			add_manpower = 100000 
 		}   
 		ai_will_do = { factor = 20 }
-		cost = 10
+		cost = 5
 		x = 8
 		y = 6
 	}	
@@ -370,7 +370,6 @@ focus_tree = {
 		}
 		completion_reward = { 
 			add_stability = 0.2
-			news_event = { days = 1 id = ww1_alternativehistory.2 }
 		}
 		ai_will_do = { 
 			factor = 500
