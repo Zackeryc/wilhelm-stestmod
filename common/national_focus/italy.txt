@@ -224,7 +224,7 @@ focus_tree = {
 				}
 			} 
 		}
-		cost = 10
+		cost = 5
 		x = 6
 		y = 2
 	}
@@ -254,7 +254,7 @@ focus_tree = {
 		    }
 		}
 		ai_will_do = { factor = 2000 }
-		cost = 10
+		cost = 5
 		x = 6
 		y = 3
 	}
@@ -272,7 +272,7 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		ai_will_do = { factor = 2000 }
 		completion_reward = { ITA={ add_opinion_modifier={ target=AUH modifier=HOI4TGW_Opinion_anti_ah_policy_malus } } }
-		cost = 10
+		cost = 5
 		x = 6
 		y = 4
 	}
@@ -288,7 +288,7 @@ focus_tree = {
 		icon = GFX_goal_generic_cavalry
 		completion_reward = { ITA={ add_opinion_modifier={ target=GER modifier=HOI4TGW_Opinion_anti_ger_policy_malus } } }
 		ai_will_do = { factor = 2000 }
-		cost = 10
+		cost = 5
 		x = 6
 		y = 5
 	}
@@ -312,7 +312,7 @@ focus_tree = {
 			add_state_claim = 770 
 		}
 		ai_will_do = { factor = 2000 }
-		cost = 10
+		cost = 5
 		x = 6
 		y = 6
 	}
@@ -332,7 +332,7 @@ focus_tree = {
 			army_experience = 50 navy_experience = 50 air_experience = 50
 		}
 		ai_will_do = { factor = 2000 }
-		cost = 10
+		cost = 5
 		x = 6
 		y = 7
 	}
