@@ -632,7 +632,7 @@ ideas = {
                 }
             }
              modifier = {
-				army_org_factor = -0.5
+				army_org_factor = -0.6
 			}
         }
 		FRA_you_shall_not_pass = { 

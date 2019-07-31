@@ -9,7 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 1273 1 }
-		owner=POR
+		owner=ENG
 		1936.1.1={ 
 			owner=POR
 			add_core_of=POR

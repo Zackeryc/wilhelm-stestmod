@@ -106,39 +106,13 @@ ideas={
 					picture=GFX_idea_Austrian_staff
 
 					modifier = {
-						conscription_factor = 0.45
 						experience_gain_army = 0.03
 						planning_speed = 0.05
 						army_speed_factor = 0.10
 						land_reinforce_rate = 0.05
-						max_planning = 0.1
+						max_planning = 0.15
 					}
 				}
-
-		AUH_ww1_Trialism = {
-
-			allowed = {
-				original_tag = AUH
-				original_tag = HUN
-				original_tag = CRO
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			research_bonus = {
-				land_doctrine = 0.10
-				naval_doctrine = 0.10
-				air_doctrine = 0.10
-			}
-
-			modifier={
-				stability_factor= 0.05
-				army_org_factor = 0.25
-			}
-		}
 
 
 

@@ -10,8 +10,7 @@ state={
 		}
 	history={
 		victory_points={ 10627 3 }
-		owner=QIN
-		add_core_of=TAN
+		owner=RUS
 		add_core_of=RUS
 
 		buildings={

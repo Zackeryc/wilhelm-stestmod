@@ -95,24 +95,6 @@ country_event = {
 			news_event = { days = 150 id = ww1_usa.5 }
 		}
 	}
-
-	# Theodore Roosevelt will be President of USA
-	option = {
-		name = ww1_usa.50.b
-		ai_chance = { factor = 0 }
-		set_country_flag = new_1913_president_usa
-
-		hidden_effect = {
-			news_event = { days = 150 id = ww1_usa.6 }
-		}
-	}
-
-	# Taft will stay President of USA
-	option = {
-		name = ww1_usa.50.c
-		ai_chance = { factor = 0 }
-		set_country_flag = new_1913_president_usa
-	}
 }
 #____________________________________________________________
 

@@ -9,9 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 12674 1 }
-		owner=DEN
-		add_core_of=DEN
-		add_core_of=ICE
+		owner=BRA
 		1936.1.1={ 
 			owner=DEN
 			add_core_of=DEN

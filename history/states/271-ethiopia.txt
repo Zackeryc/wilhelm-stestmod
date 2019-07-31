@@ -29,8 +29,6 @@ state={
 		1936.6.1={ owner=ITA controller=ITA }
 		buildings={
 			infrastructure=3
-			industrial_complex=2
-			arms_factory=1
 			}
 		}
 	}

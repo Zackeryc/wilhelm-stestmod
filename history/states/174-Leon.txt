@@ -6,12 +6,10 @@ state={
 	provinces={ 726 918 920 3725 3727 3729 3744 3918 3920 6746 6749 6907 9699 9719 11707 11843 4024 }
 	resources={
 		wood=0
-		coal=4
 		}
 	history={
 		victory_points={ 11707 1 }
-		owner=SPR
-		add_core_of=SPR
+		owner=BRA
 		1936.1.1={ 
 			owner=SPR
 			add_core_of=SPR
@@ -26,8 +24,6 @@ state={
 			}
 		buildings={
 			infrastructure=6
-			industrial_complex=1
-			arms_factory=1
 			11707={ naval_base=1 }
 			6749={ naval_base=2 }
 			}

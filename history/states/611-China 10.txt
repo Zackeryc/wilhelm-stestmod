@@ -9,10 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 11752 3 }
-		owner=QIN
-		add_core_of=MEN
-		add_core_of=QIN
-		#add_core_of=PRC
+		owner=BRA
 		1912.2.12={ owner=CHI }
 		1936.1.1={ 
 			owner=MEN
@@ -28,7 +25,6 @@ state={
 		1939.1.1={ owner=JAP controller=JAP }
 		buildings={
 			infrastructure=3
-			industrial_complex=0
 			}
 		}
 	}

@@ -5,13 +5,9 @@ state={
 	state_category=rural
 	provinces={ 1945 4946 7921 8003 8057 10853 10871 10895 12804 }
 	resources={
-		wood=0
-		steel=40
-		oil=25
 		}
 	history={
-		owner=MEX
-		add_core_of=MEX
+		owner=BRA
 		1936.1.1={
 			owner=MEX
 			add_core_of=MEX
@@ -23,7 +19,6 @@ state={
 			}
 		buildings={
 			infrastructure=3
-			industrial_complex=1
 			8057={ naval_base=3 }
 			}
 		}

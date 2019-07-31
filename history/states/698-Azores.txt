@@ -9,8 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 1751 3 }
-		owner=POR
-		add_core_of=POR
+		owner=BRA
 		1936.1.1={ 
 			owner=POR
 			add_core_of=POR

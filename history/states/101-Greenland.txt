@@ -8,8 +8,7 @@ state={
 		wood=0
 		}
 	history={
-		owner=DEN
-		add_core_of=DEN
+		owner=BRA
 		1936.1.1={ 
 			owner=DEN
 			add_core_of=DEN

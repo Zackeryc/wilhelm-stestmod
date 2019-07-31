@@ -9,7 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 8245 1 }
-		owner=POR
+		owner=BRA
 		1936.1.1={ 
 			owner=POR
 			add_core_of=POR
@@ -23,7 +23,6 @@ state={
 			}
 		buildings={
 			infrastructure=3
-			industrial_complex=1
 			8245={ naval_base=1 }
 			2123={ naval_base=1 }
 			}

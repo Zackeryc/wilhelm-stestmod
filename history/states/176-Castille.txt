@@ -10,8 +10,7 @@ state={
 	history={
 		victory_points={ 885 3 }
 		victory_points={ 11825 3 }
-		owner=SPR
-		add_core_of=SPR
+		owner=BRA
 		1936.1.1={ 
 			owner=SPR
 			add_core_of=SPR
@@ -24,7 +23,6 @@ state={
 			}
 		buildings={
 			infrastructure=6
-			industrial_complex=1
 			}
 		}
 	}
