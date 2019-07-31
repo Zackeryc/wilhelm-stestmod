@@ -152,12 +152,6 @@ ideas = {
 			
 			
 			available = {
-				has_war_support > 0.5
-				OR = {
-					has_government = fascism
-					has_government = communism
-					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
-					AND = {
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -167,15 +161,6 @@ ideas = {
 						}
 					}
 				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}		
-			}
 		
 			cost = 150
 			removal_cost = -1
@@ -204,7 +189,7 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				has_war_support > 0.8
+				date > 1914.6.28
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 

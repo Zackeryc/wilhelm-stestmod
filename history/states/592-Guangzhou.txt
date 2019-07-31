@@ -5,18 +5,10 @@ state={
 	state_category=city
 	provinces={ 1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 }
 	resources={
-		wood=0
-		coal=6
-		chromium=0
-		steel=1
-		tungsten=0
 		}
 	history={
 		victory_points={ 1047 5 }
-		owner=QIN
-		add_core_of=QIN
-		add_core_of=CHI
-		#add_core_of=PRC
+		owner=BRA
 		1912.2.12={ owner=CHI }
 		1936.1.1={ 
 			owner=GXC
@@ -35,8 +27,6 @@ state={
 		1938.10.25={ remove_core_of=GXC owner=CHI JAP={ set_province_controller=1047 set_province_controller=7152 set_province_controller=11938 set_province_controller=11941 } 			 }
 		buildings={
 			infrastructure=3
-			industrial_complex=5
-			arms_factory=1
 			1047={ naval_base=5 coastal_bunker=1 bunker=1 }
 			}
 		}

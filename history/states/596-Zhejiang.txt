@@ -10,9 +10,7 @@ state={
 	history={
 		victory_points={ 9974 1 }
 		victory_points={ 7191 1 }
-		owner=QIN
-		add_core_of=CHI
-		add_core_of=QIN
+		owner=BRA
 		1912.2.12={ owner=CHI }
 		1936.1.1={ 
 			owner=CHI
@@ -30,9 +28,6 @@ state={
 		1938.10.25={		 JAP={ set_province_controller=1055 set_province_controller=1096 set_province_controller=4042 set_province_controller=7058 set_province_controller=7191 set_province_controller=9974 set_province_controller=10014 set_province_controller=10101 set_province_controller=11991 } 			 }
 		buildings={
 			infrastructure=4
-			7191={ naval_base=1 coastal_bunker=1 bunker=1 }
-			9974={ naval_base=3 coastal_bunker=1 bunker=1 }
-			1055={ naval_base=3 coastal_bunker=1 bunker=1 }
 			}
 		}
 	}

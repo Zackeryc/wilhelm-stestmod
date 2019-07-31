@@ -70,4 +70,17 @@ ideas={
 			designer = yes 
 			vickers_armstrong_bel={ allowed={ TAG=BEL } research_bonus={ armor=0.10 } traits={ medium_tank_manufacturer } }
 			}
+			
+country = {
+
+	BEL_cowardice = {
+			picture = officers_purged 
+			allowed = {
+					always = no
+				}
+             modifier = {
+				army_org_factor = -0.9
+				}
+            }
+        }
 	}

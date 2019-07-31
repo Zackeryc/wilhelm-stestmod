@@ -60,52 +60,6 @@ news_event = {
 
 # South Africa Act
 #____________________________________________________________
-news_event = {
-	id=ww1_england.101
-	title=ww1_england.101.t
-	desc=ww1_england.101.d
-	picture=EVENT_hoi4tgw_south_africa_act
-	
-	major = yes
-	
-	trigger = {
-		date > 1910.5.31
-		NOT = { has_global_flag = kis_south_africa_act }
-	}
-	
-	mean_time_to_happen = {
-		days = 0
-	}
-	immediate = {
-		set_global_flag = kis_south_africa_act
-		hidden_effect = {
-			SAF = {
-				transfer_state = 681
-				transfer_state = 719
-				transfer_state = 275
-			}
-			ENG = {
-			    set_autonomy = {
-		            target = SAF
-		            autonomous_state = autonomy_dominion
-	                    }
-			}
-			SAF={
-				add_political_power=101
-				add_manpower=20000
-				load_oob="SAF_1910"
-				set_country_flag=saf_release
-			}
-		}
-	}
-	
-	option = {
-		name = ww1_england.101.b
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
 #____________________________________________________________
 
 # Sinking of the Titanic

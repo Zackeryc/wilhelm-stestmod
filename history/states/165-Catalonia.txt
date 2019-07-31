@@ -9,8 +9,7 @@ state={
 		}
 	history={
 		victory_points={ 9764 15 }
-		owner=SPR
-		add_core_of=SPR
+		owner=BRA
 		1936.1.1={ 
 			owner=SPR
 			add_core_of=SPR
@@ -25,8 +24,6 @@ state={
 			}
 		buildings={
 			infrastructure=7
-			industrial_complex=2
-			air_base=1
 			9764={ naval_base=4 }
 			}
 		}
