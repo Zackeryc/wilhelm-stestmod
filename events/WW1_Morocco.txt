@@ -22,7 +22,7 @@ country_event = {
             remove_ideas = neutrality_idea
         }
         add_named_threat = {
-            threat = 5
+            threat = 10
             name = ww1_morocco.1.t
         }
         FRA = {
@@ -93,10 +93,6 @@ country_event = {
                 target = MOR
                 transfer_troops = no
             }
-        }
-        SPR = {
-            transfer_state = 290
-            add_state_claim = 290
         }
         GER = {
             country_event = ww1_morocco.7

@@ -7,7 +7,7 @@ set_fuel_ratio = 0.60
 set_research_slots = 4
 set_stability = 0.70
 set_war_support = 0.70
-set_convoys = 200
+set_convoys = 3000
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
@@ -72,24 +72,6 @@ create_navy_leader={  name = "Miklós Horthy" id=6394 portrait_path="gfx/hoi4tgw
 1910.1.1 = {
 
 	puppet = BOS
-
-	# SPECIAL_DLC Together for Victory
-	if = { limit = { has_dlc = "Together for Victory" }
-
-		#IF-----------------------------------------
-		set_autonomy = {
-			target = BOS
-			autonomous_state = autonomy_integrated_puppet
-		}
-		#-------------------------------------------
-
-		#ELSE---------------------------------------
-		else = {
-			# WORK IN PROGRESS #
-		}
-		#-------------------------------------------
-	}
-
 
 	oob = "AUH_1910"
 

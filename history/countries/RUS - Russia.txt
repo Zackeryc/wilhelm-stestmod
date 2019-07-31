@@ -7,7 +7,7 @@ set_fuel_ratio = 0.33
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.75
-set_convoys = 100
+set_convoys = 3000
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
