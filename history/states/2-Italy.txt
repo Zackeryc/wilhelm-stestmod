@@ -6,6 +6,11 @@ state={
 	provinces={ 923 6862 9794 9904 11751 11846 11882 }
 	resources={
 		wood=0
+		coal=40
+		chromium=25
+		steel=40
+		tungsten=20
+		aluminium=10
 		}
 	history={
 		victory_points={ 9904 40 }

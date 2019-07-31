@@ -506,28 +506,27 @@ focus_tree = {
 		prerequisite = { focus = GER_ww1_ready_country }
 		icon = GFX_hoi4tgw_ironcross
 		available = {
-			date > 1916.7.1
+			date > 1916.9.1
 			}
 		completion_reward = {
 					add_timed_idea = {
 							idea = GER_Kaiserschlacht 
-							days = 128
+							days = 64 }
 					ROM = {
 						add_timed_idea = {
 							idea = GER_Kaiserschlacht 
-							days = 128 }
+							days = 64 }
 					}
 					AUH = {
 						add_timed_idea = {
 							idea = GER_Kaiserschlacht 
-							days = 128 }
+							days = 64 }
 					}
 					BUL = {
 						add_timed_idea = {
 							idea = GER_Kaiserschlacht 
-							days = 128 }
+							days = 64 }
 					}
-		}
 		}
 		x = 15
 		y = 6

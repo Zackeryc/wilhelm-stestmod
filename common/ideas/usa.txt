@@ -119,8 +119,8 @@ ideas={
 			american_protection_drift_fascism={ allowed={ always=no	} allowed_civil_war={ has_government=fascism } removal_cost=-1 picture=generic_intel_bonus modifier={ fascism_drift=0.05 }			 }
 			USA_world_police={ allowed={ always=no	} allowed_civil_war={ always=yes } removal_cost=-1 picture=generic_volunteer_expedition_bonus modifier={			 justify_war_goal_time=-0.25 }			 }
 			splended_isolation={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor=0.4 conscription_factor=-0.5 } }
-			federal_reserve={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor = -0.05 } }
-			neutral_USA={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor = -0.05 } }
+			federal_reserve={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor = -0.10 } }
+			neutral_USA={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ consumer_goods_factor = -0.10 } }
 			prepardness={ allowed={ always=no } allowed_civil_war={ has_government=democratic } removal_cost=-1 modifier={ production_speed_arms_factory_factor = 0.10} }
 			allied_counter_offensive = {
 				allowed = {

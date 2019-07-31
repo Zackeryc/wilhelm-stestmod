@@ -801,3 +801,207 @@ country_event = {
 	}
 }
 #____________________________________________________________
+NEW PURGE
+#____________________________________________________________
+
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.37
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.1.1	}
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged
+			add_ideas = {
+				officers_purged_2
+			}
+			country_event = { id = soviet.38 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.38
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.3.1 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_2
+			add_ideas = {
+				officers_purged_3
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.39
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.5.1 }
+			
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_3
+			add_ideas = {
+				officers_purged_4
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.40
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.7.1 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_4
+			add_ideas = {
+				officers_purged_5
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.41
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.9.1 }
+
+	immediate = {
+	hidden_effect = {
+			remove_ideas = officers_purged_5
+			add_ideas = {
+				officers_purged_6
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.42
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1915.11.1 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_6
+			add_ideas = {
+				officers_purged_7
+			}		
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.43
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+
+	trigger = { date > 1916.2.1 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_7
+			add_ideas = {
+				officers_purged_8
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.44
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	trigger = { date > 1916.4.1 }
+	
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_8
+			add_ideas = {
+				officers_purged_9
+			}				
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.45
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+	
+	trigger = { date > 1916.6.1 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_9
+			add_ideas = {
+				officers_purged_10
+			}
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}

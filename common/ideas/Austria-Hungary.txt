@@ -106,7 +106,6 @@ ideas={
 					picture=GFX_idea_Austrian_staff
 
 					modifier = {
-						conscription_factor = 0.45
 						experience_gain_army = 0.03
 						planning_speed = 0.05
 						army_speed_factor = 0.10
@@ -139,6 +138,8 @@ ideas={
 				army_org_factor = 0.25
 			}
 		}
+		
+		
 
 
 
