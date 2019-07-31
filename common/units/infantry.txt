@@ -262,7 +262,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 45
+		max_organisation = 70
 		default_morale = 0.4
 		manpower = 1000
 
@@ -278,11 +278,11 @@ sub_units = {
 		}
 
 		urban = {
-			attack = 0.15
+			attack = 0.40
 			movement = 0.1
 		}
 		fort = {
-			attack = 0.15
+			attack = 0.40
 			movement = 0.1
 		}
 	}
