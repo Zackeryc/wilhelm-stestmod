@@ -110,7 +110,7 @@ ideas={
 						planning_speed = 0.05
 						army_speed_factor = 0.10
 						land_reinforce_rate = 0.05
-						max_planning = 0.1
+						max_planning = 0.15
 					}
 				}
 
