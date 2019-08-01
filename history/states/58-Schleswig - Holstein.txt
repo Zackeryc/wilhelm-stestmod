@@ -30,8 +30,7 @@ state={
 			infrastructure=6
 			industrial_complex=6
 			air_base=1
-			dockyard=2
-			arms_factory=1
+			arms_factory=2
 			6389={ naval_base=8 }
 			}
 		}
