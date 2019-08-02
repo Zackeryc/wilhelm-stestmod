@@ -12,7 +12,6 @@ state={
 		owner=AUH
 		add_core_of=ITA
 		add_core_of=AUH
-		#add_claim_by=AUS
 		1936.1.1={ 
 			owner=ITA
 			add_core_of=ITA
@@ -23,7 +22,7 @@ state={
 				}
 			}
 		buildings={
-			infrastructure=6
+			infrastructure=8
 			industrial_complex=1
 			}
 		}

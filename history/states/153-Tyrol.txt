@@ -11,7 +11,6 @@ state={
 	history={
 		victory_points={ 673 5 }
 		owner=AUH
-		# add_core_of=AUS
 		add_core_of=AUH
 		1936.1.1={
 			owner=AUS
@@ -25,7 +24,7 @@ state={
 			}
 		1938.3.12={ owner=GER controller=GER add_core_of=GER }
 		buildings={
-			infrastructure=5
+			infrastructure=9
 			industrial_complex=1
 			}
 		}
