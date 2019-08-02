@@ -31,7 +31,6 @@ state={
 			infrastructure=9
 			industrial_complex=7
 			air_base=2
-			dockyard=2
 			arms_factory=2
 			11374={ naval_base=10 }
 			}
