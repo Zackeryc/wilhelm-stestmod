@@ -14,7 +14,7 @@ ideas={
 			ENG_herbert_mullaly={ allowed={ tag=ENG } traits={ war_industrialist } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			ENG_st_john_brodrick={ allowed={ tag=ENG } traits={ military_theorist } ai_will_do={ factor=1 } }
+			ENG_st_john_brodrick={ allowed={ tag=ENG } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			ENG_richard_haldane={ allowed={ tag=ENG } traits={ mobile_warfare_expert } ai_will_do={ factor=1 } }
 			ENG_john_edward_bernard_seely={ allowed={ tag=ENG } traits={ military_theorist } ai_will_do={ factor=1 } }
 			ENG_edward_stanley={ allowed={ tag=ENG } traits={ military_theorist } ai_will_do={ factor=1 } }

@@ -16,7 +16,7 @@ ideas={
 
 
 	theorist={
-			USA_adna_r_chaffee={ allowed={ tag=USA } traits={ military_theorist } ai_will_do={ factor=1 } }
+			USA_adna_r_chaffee={ allowed={ tag=USA } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 	army_chief={
 			USA_peyton_c_march={ allowed={ tag=USA } traits={ army_artillery_1 } ai_will_do={ factor=1 } }

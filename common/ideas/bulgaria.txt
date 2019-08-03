@@ -29,7 +29,7 @@ ideas={
 
 
 	theorist={
-			BUL_nikola_zhekov={ allowed={ tag=BUL } traits={ military_theorist } ai_will_do={ factor=1 } }
+			BUL_nikola_zhekov={ allowed={ tag=BUL } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 
 	air_chief={

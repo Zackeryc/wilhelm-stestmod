@@ -352,7 +352,7 @@ ideas={
 			RUS_konstantin_v_rodzaevsky={ allowed={ tag=RUS } available = {has_completed_focus = RUS_ww1_condemn_marxist_ideas} traits={ fascist_demagogue } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			RUS_alexei_polivanov={ allowed={ tag=RUS } traits={ military_theorist } ai_will_do={ factor=1 } }
+			RUS_alexei_polivanov={ allowed={ tag=RUS } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			RUS_michael_alexandrovich={ allowed={ tag=RUS } traits={ victory_through_airpower } ai_will_do={ factor=1 } }
 			}
 	army_chief={

@@ -14,7 +14,7 @@ ideas={
 			}
 	theorist={
 			ITA_felice_napoleone_canevaro={ allowed={ tag=ITA } traits={ grand_fleet_proponent } ai_will_do={ factor=1 } }
-			#ITA_alberto_de_stefani={ allowed={ tag=ITA } traits={ military_theorist } ai_will_do={ factor=1 } }
+			#ITA_alberto_de_stefani={ allowed={ tag=ITA } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			ITA_paolo_spingardi={ allowed={ tag=ITA } traits={ military_theorist } ai_will_do={ factor=1 } }
 			}
 	army_chief={

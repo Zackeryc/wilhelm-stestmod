@@ -12,7 +12,7 @@ ideas={
 		}
 
 	theorist={
-			AUH_august_urbanski={ allowed={ tag=AUH } traits={ military_theorist } ai_will_do={ factor=1 } }
+			AUH_august_urbanski={ allowed={ tag=AUH } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 	}
 
 	air_chief={

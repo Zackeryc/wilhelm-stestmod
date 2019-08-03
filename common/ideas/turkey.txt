@@ -11,7 +11,7 @@ ideas={
 			}
 
 	theorist={
-			TUR_ethem_nejat={ allowed={ tag=TUR } traits={ military_theorist } ai_will_do={ factor=1 } }
+			TUR_ethem_nejat={ allowed={ tag=TUR } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } }
 			}
 
 	army_chief={

@@ -9,6 +9,8 @@ ideas={
 			AST_william_higgs={ allowed={ tag=AST } traits={ armaments_organizer } ai_will_do={ factor=1 } }
 			AST_alexander_poynton={ allowed={ tag=AST } traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			}
+	theorist={
+			AST_army_theorist={ allowed={ tag=RUS } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } } }
 	army_chief={
 			AST_gordon_legge={ allowed={ tag=AST } traits={ army_chief_reform_1 } ai_will_do={ factor=1 } }
 			AST_sir_brudenell_white={ allowed={ tag=AST } traits={ army_chief_drill_1 } ai_will_do={ factor=1 } }

@@ -649,9 +649,7 @@ ideas = {
 				original_tag = CAN
 			}
 			
-			research_bonus = {
-				land_doctrine = 0.07
-			}
+			research_bonus = { land_doctrine = 0.10 }
 			
 			traits = { military_theorist }
 		}
