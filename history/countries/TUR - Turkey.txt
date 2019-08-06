@@ -188,13 +188,7 @@ set_technology = {
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
-	#Army
-	complete_national_focus = TUR_ww1_army_effort
-	complete_national_focus = TUR_ww1_industrial_effort
-	complete_national_focus = TUR_ww1_naval_effort
-
-	#Diplomatic
-	complete_national_focus = TUR_ww1_diplomatic_effort
+	
 	#-------------------------------------------------------
 
 	set_technology = {

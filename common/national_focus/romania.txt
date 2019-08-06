@@ -1,5 +1,5 @@
 focus_tree = {
-	id=canada_focus
+	id=romania_focus
 	default=no
 	reset_on_civilwar=no
 	country = { factor=0 modifier = { add = 10 tag = ROM } }
@@ -1039,7 +1039,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_ww1_newnavalROMons_1
+		id = ROM_ww1_newnavalcanons_1
 		prerequisite = { focus=ROM_ww1_naval_effort }
 		icon = GFX_hoi4tgw_navalROMons
 		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalROMons_1_bonus bonus=1.00 uses=1 category=naval_doctrine } }
@@ -1052,7 +1052,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_ww1_dreadnought_effort
-		prerequisite = { focus=ROM_ww1_newnavalROMons_1 }
+		prerequisite = { focus=ROM_ww1_newnavalcanons_1 }
 		icon = GFX_goal_generic_navy_battleship
 		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=1.00 uses=1 technology=ww1_battleship0 technology=ww1_battleship1 technology=ww1_battleship2 } }
 		ai_will_do = { factor=1 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1063,7 +1063,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_ww1_newnavalROMons_2
+		id = ROM_ww1_newnavalcanons_2
 		prerequisite = { focus=ROM_ww1_dreadnought_effort }
 		icon = GFX_goal_generic_army_artillery
 		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalROMons_2_bonus bonus=1.00 uses=1 category=naval_doctrine } }
@@ -1075,7 +1075,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_ww1_flexible_navy
-		prerequisite = { focus=ROM_ww1_newnavalROMons_2 }
+		prerequisite = { focus=ROM_ww1_newnavalcanons_2 }
 		icon = GFX_goal_generic_occupy_states_coastal
 		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=1.00 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1088,7 +1088,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_ww1_large_navy
-		prerequisite = { focus=ROM_ww1_newnavalROMons_2 }
+		prerequisite = { focus=ROM_ww1_newnavalcanons_2 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=1.00 uses=1 category=fleet_in_being_tree } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1144,7 +1144,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ROM_ww1_newnavalROMons_3
+		id = ROM_ww1_newnavalcanons_3
 		prerequisite = { focus=ROM_ww1_capital_ships_effort }
 		prerequisite = { focus=ROM_ww1_destroyer_effort }
 		icon = GFX_goal_generic_army_artillery
@@ -1157,7 +1157,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_ww1_navyreform
-		prerequisite = { focus=ROM_ww1_newnavalROMons_3 }
+		prerequisite = { focus=ROM_ww1_newnavalcanons_3 }
 		icon = GFX_goal_generic_amphibious_assault
 		completion_reward = { navy_experience=25 }
 		ai_will_do = { factor = 10 }
