@@ -6,7 +6,8 @@ state={
 	provinces={ 438 491 9494 536 3483 3562 9454 9468 9558 11427 11479 }
 	resources={
 		wood=21
-		tungsten=60
+		tungsten=75
+		chromium=38
 		}
 	history={
 		victory_points={ 11479 5 }
@@ -24,7 +25,7 @@ state={
 				}
 			}
 		buildings={
-			infrastructure=5
+			infrastructure=6
 			industrial_complex=2
 			air_base=1
 			}

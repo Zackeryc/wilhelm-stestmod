@@ -9,6 +9,7 @@ state={
 		coal=6
 		oil=580
 		aluminium=145
+		rubber=100
 		}
 	history={
 		victory_points={ 10337 10 }

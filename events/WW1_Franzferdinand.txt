@@ -12,6 +12,7 @@ news_event = {
 	
 	trigger = {
 		date > 1914.6.28
+		date < 1914.6.29
 	}
 	
 	mean_time_to_happen = {
@@ -116,7 +117,7 @@ country_event = {
 		}
 		set_country_flag=serbian_ultamatium
 		add_named_threat={
-			threat=4
+			threat=100
 			name=ww1_franzferdinand.3.t
 		}
 		RUS={
@@ -126,18 +127,9 @@ country_event = {
 			declare_war_on={
 				type=annex_everything
 				target=SER
+				target=ALB
+				target=MTN
 			}
-		}
-
-		HUN = {
-			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
-	        }
-		}
-		CRO = {
-			add_to_war = {
-	            targeted_alliance = AUH enemy = SER
-	        }
 		}
 
 		set_global_flag = kis_war
