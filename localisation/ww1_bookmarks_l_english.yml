@@ -37,6 +37,12 @@
  
  QIN_POWDERKEG_DESC:0 ""
  
+ AST_POWDERKEG_DESC:0 "The Australian Army was the largest service in the Australian military during World War I. The First Australian Imperial Force (AIF) was the Army's main expeditionary force and was formed from 15 August 1914 with an initial strength of 20,000 men, following Britain's declaration of war on Germany."
+ 
+ CAN_POWDERKEG_DESC:0 "Troops from Canada played a prominent part in World War One. Canada was part of the British Empire in 1914. As a result of this, when Great Britain declared war on Germany in August 1914, Canada was automatically at war. ... Canadian troops were tasked with capturing the strategically important Vimy Ridge."
+ 
+ ROM_POWDERKEG_DESC:0 "The Kingdom of Romania was neutral for the first two years of World War I, entering on the side of the Allied powers from 27 August 1916 until Central Power occupation led to the Treaty of Bucharest in May 1918, before reentering the war on 10 November 1918."
+ 
  OTHER_POWDERKEG_DESC:0 "Other countries of the period."
 
 

@@ -1,5 +1,5 @@
 focus_tree = {
-	id=australia_focus
+	id=canada_focus
 	default=no
 	reset_on_civilwar=no
 	country = { factor=0 modifier = { add = 10 tag = AST } }
@@ -370,7 +370,7 @@ focus_tree = {
 		prerequisite = { focus=AST_foreign_expeditions }
 		icon = GFX_goal_generic_propaganda
 		available = { has_war=yes is_in_faction=yes }
-		completion_reward = { add_ideas=why_we_fight_focus }
+		completion_reward = { if={ limit={ NOT={ has_idea=neutrality_idea } } set_rule={ can_create_factions=yes } } add_ideas=why_we_fight_focus }
 		cost = 10
 		x = 6
 		y = 7
@@ -845,7 +845,7 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes }			 }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 22
+		x = 21
 		y = 2
 	}
 
@@ -858,7 +858,7 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 24
+		x = 23
 		y = 2
 	}
 
@@ -867,7 +867,7 @@ focus_tree = {
 		id = AST_ww1_dockyard_effort_1
 		prerequisite = { focus=AST_ww1_infrastructure_effort }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 26
+		x = 25
 		y = 2
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -927,8 +927,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 22
-		y = 4
+		x = 21
+		y = 3
 	}
 
 	focus = {
@@ -940,8 +940,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 24
-		y = 4
+		x = 23
+		y = 3
 	}
 
 
@@ -949,8 +949,8 @@ focus_tree = {
 		id = AST_ww1_dockyard_effort_2
 		prerequisite = { focus=AST_ww1_dockyard_effort_1 }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 26
-		y = 4
+		x = 25
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 10 }
 		bypass = {
@@ -1008,7 +1008,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 23
-		y = 7
+		y = 4
 	}
 
 	focus = {
@@ -1021,7 +1021,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 23
-		y = 9
+		y = 5
 		cancel_if_invalid =no
 	}
 
@@ -1040,10 +1040,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_ww1_newnavalASTons_1
+		id = AST_ww1_newnavalcanons_1
 		prerequisite = { focus=AST_ww1_naval_effort }
-		icon = GFX_hoi4tgw_navalASTons
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalASTons_1_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		icon = GFX_hoi4tgw_navalcanons
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_1_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 29
@@ -1053,7 +1053,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_ww1_dreadnought_effort
-		prerequisite = { focus=AST_ww1_newnavalASTons_1 }
+		prerequisite = { focus=AST_ww1_newnavalcanons_1 }
 		icon = GFX_goal_generic_navy_battleship
 		completion_reward = { add_tech_bonus={ name=cr_bonus bonus=1.00 uses=1 technology=ww1_battleship0 technology=ww1_battleship1 technology=ww1_battleship2 } }
 		ai_will_do = { factor=1 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1064,10 +1064,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_ww1_newnavalASTons_2
+		id = AST_ww1_newnavalcanons_2
 		prerequisite = { focus=AST_ww1_dreadnought_effort }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalASTons_2_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_2_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 29
@@ -1076,7 +1076,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_ww1_flexible_navy
-		prerequisite = { focus=AST_ww1_newnavalASTons_2 }
+		prerequisite = { focus=AST_ww1_newnavalcanons_2 }
 		icon = GFX_goal_generic_occupy_states_coastal
 		completion_reward = { add_tech_bonus={ name=sub_op_bonus bonus=1.00 uses=1 technology=convoy_interdiction_ti technology=unrestricted_submarine_warfare technology=wolfpacks technology=advanced_submarine_warfare } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1089,7 +1089,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_ww1_large_navy
-		prerequisite = { focus=AST_ww1_newnavalASTons_2 }
+		prerequisite = { focus=AST_ww1_newnavalcanons_2 }
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		completion_reward = { add_tech_bonus={ name=fleet_in_being_bonus bonus=1.00 uses=1 category=fleet_in_being_tree } }
 		ai_will_do = { factor=10 modifier={ factor=0 all_owned_state={ OR={ is_coastal=no dockyard < 1 } } } }
@@ -1145,11 +1145,11 @@ focus_tree = {
 
 
 	focus = {
-		id = AST_ww1_newnavalASTons_3
+		id = AST_ww1_newnavalcanons_3
 		prerequisite = { focus=AST_ww1_capital_ships_effort }
 		prerequisite = { focus=AST_ww1_destroyer_effort }
 		icon = GFX_goal_generic_army_artillery
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalASTons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 29
@@ -1158,7 +1158,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_ww1_navyreform
-		prerequisite = { focus=AST_ww1_newnavalASTons_3 }
+		prerequisite = { focus=AST_ww1_newnavalcanons_3 }
 		icon = GFX_goal_generic_amphibious_assault
 		completion_reward = { navy_experience=25 }
 		ai_will_do = { factor = 10 }
@@ -1182,7 +1182,7 @@ focus_tree = {
 		id = AST_ww1_antisubmarine
 		prerequisite = { focus=AST_ww1_navyreform }
 		icon = GFX_goal_generic_navy_anti_submarine
-		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalASTons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
+		completion_reward = { navy_experience=15 add_tech_bonus={ name=newnavalcanons_3_bonus bonus=1.00 uses=1 category=naval_doctrine } }
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 30

@@ -1,6 +1,26 @@
 ﻿l_english:
 
+ CAN_interventionism_focus:0 "Interventionism Focus"
+ CAN_interventionism_focus_desc:0 "We value the freedom of all people, not only our own citizens. If preventing tyranny means war, then so be it."
+ CAN_volunteer_corps:0 "Volunteer Corps"
+ CAN_volunteer_corps_desc:0 "Forcing our people to die for ideals of freedom would be an exercise in irony, but establishing means for those who wish to aid people abroad is not."
+ CAN_foreign_expeditions:0 "Foreign Expeditions"
+ CAN_foreign_expeditions_desc:0 "With our enemies prepared to intervene in distant conflicts on behalf of their ideals, we must be ready to do the same for ours."
+ CAN_why_we_fight:0 "Why We Fight"
+ CAN_why_we_fight_desc:0 "The world is growing increasingly unsafe. Our people need to see the atrocities being committed by those who crave power. It is time we rally the people to our cause and ensure everyone is ready to fight for our freedom."
+ CAN_technology_sharing:0 "Technology Sharing"
+ CAN_technology_sharing_desc:0 "By sharing technological advances with our allies, our whole faction will be able to conduct wartime R&D more efficiently."
 
+ CAN_ww1_submarine_effort:0 "Submarine Effort"
+ CAN_ww1_submarine_effort_desc:0 "With a focus on submarines we can disrupt the trade of the enemy and win the war of attrition."
+ CAN_ww1_aviation_effort:0 "Aviation Effort"
+ CAN_ww1_aviation_effort_desc:0 "With a focus on planes we can bomb the enemy into submission and win the war."
+ CAN_ww1_equipment_effort:0 "Equipment Effort"
+ CAN_ww1_equipment_effort_desc:0 "Our generals are not the only old guard keeping our military in the last century. Our Quartermasters still have some of the 19th century Military issues of corruption and disconnection behind them. By selecting the most well-liked and in-tune officers, we can, most importantly, learn the faults of our current weapons, allowing us to produce corrected and improved designs more quickly- as well as ensure that these men don't get TOO popular!"
+ CAN_ww1_doctrine_effort:0 "Doctrine Effort"
+ CAN_ww1_doctrine_effort_desc:0 "One of our critical elements of warfare has largely been ignored up to now: Logistics. With so much focus on the capability of troops in combat, we must ensure they get there in a timely fashion, and have, at least, food, water, and a weapon. Giving experts on this subject a voice, as well as more training for supply vehicle drivers, would have immediate benefits for our land doctrines, but perhaps future additional benefits as well."
+ CAN_political_effort:0 "Political Effort"
+ CAN_political_effort_desc:0 "We must on politics."
  #--------------------------------------------------
  # [Canada] Army Effort
  #==================================================

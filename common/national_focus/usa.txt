@@ -401,7 +401,7 @@ focus_tree = {
 							idea = allied_counter_offensive 
 							days = 64 }
 					}
-					AST = {
+					USA = {
 						add_timed_idea = {
 							idea = allied_counter_offensive 
 							days = 64 }
@@ -953,8 +953,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 32
-		y = 4
+		x = 21
+		y = 3
 	}
 
 	focus = {
@@ -966,8 +966,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 34
-		y = 4
+		x = 23
+		y = 3
 	}
 
 
@@ -975,8 +975,8 @@ focus_tree = {
 		id = USA_ww1_dockyard_effort_2
 		prerequisite = { focus=USA_ww1_dockyard_effort_1 }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 36
-		y = 4
+		x = 25
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 10 }
 		bypass = {
@@ -1033,8 +1033,8 @@ focus_tree = {
 		completion_reward = { add_research_slot=1 }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
-		y = 7
+		x = 23
+		y = 4
 	}
 
 	focus = {
@@ -1046,8 +1046,8 @@ focus_tree = {
 		completion_reward = { add_research_slot=1 }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 33
-		y = 9
+		x = 23
+		y = 5
 		cancel_if_invalid =no
 	}
 

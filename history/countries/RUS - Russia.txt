@@ -3,11 +3,10 @@
 #-------------------------------------------------------
 #					GENERIC VALUES
 #-------------------------------------------------------
-set_fuel_ratio = 0.33
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.75
-set_convoys = 3000
+set_convoys = 100
 
 #-------------------------------------------------------
 #					POLITICS & ARMY
@@ -140,6 +139,13 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 	#-------------------------------------------------------
 	#							NF
 	#-------------------------------------------------------
+	#Army
+	#complete_national_focus = RUS_ww1_army_effort
+	#complete_national_focus = RUS_ww1_industrial_effort
+	#complete_national_focus = RUS_ww1_naval_effort
+
+	#Diplomatic
+	#complete_national_focus = RUS_ww1_diplomatic_effort
 	#-------------------------------------------------------
 
 	set_technology = {
@@ -203,26 +209,31 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
-	    last_election = "1912.9.1"
-	    election_frequency = 60
-	    elections_allowed = yes
-	}
-	set_popularities = {
-	    democratic = 10
-	    fascism = 5
-	    communism = 10
-	    neutrality = 75
+	    parties = {
+	        neutrality = {
+	            popularity = 75
+	        }
+	        democratic = {
+	            popularity = 10
+	        }
+	        fascism = {
+	            popularity = 5
+	        }
+	        communism = {
+	            popularity = 10
+	        }
+	    }
+	    ruling_party = neutrality last_election = "1912.9.1"
+	    election_frequency = 60 elections_allowed = yes
 	}
 
 	add_ideas = {
 		limited_conscription
 		partial_economic_mobilisation
 		limited_exports 
+		RUS_ww1_orthodox_church
 		RUS_ww1_tsushima_humiliation
 		RUS_ww1_mixed_railways
-		RUS_Grit
-		officers_purged
 	}
 	
 	create_equipment_variant={ name="Admiral Chichagov Class" type=battleship_1890 parent_version = 0 obsolete=yes upgrades={ ship_gun_upgrade=0 ship_armor_upgrade=0 ship_engine_upgrade=0 ship_reliability_upgrade=0           } }
@@ -412,16 +423,22 @@ create_navy_leader={  name = "Aleksandr Rusin" id=77235 portrait_path="gfx/hoi4t
 	}
 
 	set_politics = {
-	    ruling_party = neutrality
-	    last_election = "1912.9.1"
-	    election_frequency = 60
-	    elections_allowed = yes
-	}
-	set_popularities = {
-	    democratic = 10
-	    fascism = 5
-	    communism = 10
-	    neutrality = 75
+	    parties = {
+	        neutrality = {
+	            popularity = 75
+	        }
+	        democratic = {
+	            popularity = 10
+	        }
+	        fascism = {
+	            popularity = 5
+	        }
+	        communism = {
+	            popularity = 10
+	        }
+	    }
+	    ruling_party = neutrality last_election = "1912.9.1"
+	    election_frequency = 60 elections_allowed = yes
 	}
 
 	add_ideas = {

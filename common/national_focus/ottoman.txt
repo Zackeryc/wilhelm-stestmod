@@ -1019,7 +1019,7 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes }			 }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 32
+		x = 31
 		y = 2
 	}
 
@@ -1032,7 +1032,7 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 34
+		x = 33
 		y = 2
 	}
 
@@ -1041,7 +1041,7 @@ focus_tree = {
 		id = TUR_ww1_dockyard_effort_1
 		prerequisite = { focus=TUR_ww1_infrastructure_effort }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 36
+		x = 35
 		y = 2
 		cost = 5
 		ai_will_do = { factor = 10 }
@@ -1101,8 +1101,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=industrial_complex level=2 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 32
-		y = 4
+		x = 31
+		y = 3
 	}
 
 	focus = {
@@ -1114,8 +1114,8 @@ focus_tree = {
 		complete_tooltip = { add_extra_state_shared_building_slots=2 add_building_construction={ type=arms_factory level=1 instant_build=yes } }
 		ai_will_do = { factor = 10 }
 		cost = 5
-		x = 34
-		y = 4
+		x = 33
+		y = 3
 	}
 
 
@@ -1123,8 +1123,8 @@ focus_tree = {
 		id = TUR_ww1_dockyard_effort_2
 		prerequisite = { focus=TUR_ww1_dockyard_effort_1 }
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 36
-		y = 4
+		x = 35
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 10 }
 		bypass = {
@@ -1182,7 +1182,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 33
-		y = 7
+		y = 4
 	}
 
 	focus = {
@@ -1195,7 +1195,7 @@ focus_tree = {
 		ai_will_do = { factor = 10 }
 		cost = 5
 		x = 33
-		y = 9
+		y = 5
 		cancel_if_invalid =no
 	}
 

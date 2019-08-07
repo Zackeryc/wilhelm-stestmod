@@ -151,7 +151,9 @@ bookmarks = {
 
 			}
 			focuses = {
-
+				ROM_ww1_join_centralpowers
+				ROM_ww1_supportgermany
+				ROM_ww1_supportaustria
 			}
 		}
 		
@@ -180,18 +182,6 @@ bookmarks = {
 				AST_ww1_army_effort
 				AST_why_we_fight
 				AST_interventionism_focus
-			}
-		}
-		
-		"MEX"={
-			minor = yes
-			history = "MEX_POWDERKEG_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-
 			}
 		}
 
