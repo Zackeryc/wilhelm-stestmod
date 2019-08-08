@@ -11,7 +11,7 @@ ideas={
 			ROM_vintila_bratianu={ allowed={ tag=ROM } traits={ captain_of_industry } ai_will_do={ factor=1 } }
 			}
 	theorist={
-			ROM_army_theorist={ allowed={ tag=RUS } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } } }
+			ROM_army_theorist={ allowed={ tag=ROM } traits={ military_theorist } research_bonus = { land_doctrine = 0.10 } ai_will_do={ factor=1 } } }
 	army_chief={
 			ROM_vasile_zottu={ allowed={ tag=ROM } traits={ army_chief_organizational_1 } ai_will_do={ factor=1 } }
 			ROM_constantin_cristescu={ allowed={ tag=ROM } traits={ army_chief_offensive_2 } ai_will_do={ factor=1 } }
