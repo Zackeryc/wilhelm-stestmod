@@ -11,7 +11,7 @@ state={
 		wood=0
 		}
 	history={
-		owner=FRA
+		owner=BRA
 		1936.1.1={ 
 			owner=FRA
 			buildings={

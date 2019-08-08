@@ -336,7 +336,6 @@ news_event = {
 		name = kis_news.109.a
 		FRA = {
 			remove_ideas = FRA_jean_jaures
-			add_political_power = -150
 		}
 	}
 }

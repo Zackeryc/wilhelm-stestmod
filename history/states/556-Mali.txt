@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	impassable = yes
 	history={
-		owner = FRA
+		owner = BRA
 		victory_points = {
 			4927 1
 		}
