@@ -350,19 +350,19 @@ country_event = {
 			}
 			add_timed_idea = {
 				idea = schlieffen
-				days = 128
+				days = 64
 			}
 		}
 		AUH = {
 			add_timed_idea = {
 				idea = Siege_of_in_Lwow_AUH
-				days = 128
+				days = 64
 			}
 		}
 		RUS = {
 			add_timed_idea = {
 				idea = Siege_of_in_Lwow_RUS
-				days = 128
+				days = 64
 			}
 		}
 

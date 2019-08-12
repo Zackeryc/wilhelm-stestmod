@@ -533,7 +533,7 @@ NMilitary = {
 	CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.0, -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
 	BASE_LEADER_TRAIT_GAIN_XP = 0.0,			   -- Base xp gain for traits per hour for armies
 	MAX_NUM_TRAITS = -1,						   -- cant have more, -1 to disable
-	ENEMY_AIR_SUPERIORITY_IMPACT = -0.28,          -- effect on defense due to enemy air superiorty
+	ENEMY_AIR_SUPERIORITY_IMPACT = -0.20,          -- effect on defense due to enemy air superiorty
 	ENEMY_AIR_SUPERIORITY_DEFENSE = 0.70,	       -- more AA attack will approach this amount of help (diminishing returns)
 	ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112, -- how quickly defense approaches the max impact diminishing returns curve
 	ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.25,     -- effect on speed due to enemy air superiority
@@ -610,7 +610,7 @@ UNIT_EXPERIENCE_PER_COMBAT_HOUR = .00015,	-- veterancy gain from combat
 	ORG_LOSS_FACTOR_ON_CONQUER = 0.2,              -- percentage of (max) org loss on takign enemy province
 	LOW_ORG_FOR_ATTACK = 0.5,                      -- at what org % we start affecting speed when doign hostile moves. scales down ZERO_ORG_MOVEMENT_MODIFIER
 
-	PLANNING_DECAY = 0.01,
+	PLANNING_DECAY = 0.06,
 	PLAYER_ORDER_PLANNING_DECAY = 0.02,				-- Amount of planning lost due to player manual order
 	PLANNING_GAIN = 0.02,
 	PLANNING_MAX = 0.3,                           	-- can get more from techs
